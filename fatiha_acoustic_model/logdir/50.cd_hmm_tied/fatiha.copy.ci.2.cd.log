@@ -1,0 +1,2127 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dest_meanfn		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/means
+-dest_mixwfn		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/mixture_weights
+-dest_moddeffn		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.200.mdef
+-dest_tmatfn		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/transition_matrices
+-dest_ts2cbfn		.cont.
+-dest_varfn		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/variances
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-src_meanfn		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/means
+-src_mixwfn		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/mixture_weights
+-src_moddeffn		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.ci.mdef
+-src_tmatfn		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/transition_matrices
+-src_ts2cbfn		.cont.
+-src_varfn		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/variances
+
+INFO: main.c(261): Reading src /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 62 total models defined (62 base, 0 tri)
+INFO: model_def_io.c(575): 248 total states
+INFO: model_def_io.c(576): 186 total tied states
+INFO: model_def_io.c(577): 186 total tied CI states
+INFO: model_def_io.c(578): 62 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(278): Generating continous ts2cb mapping
+INFO: main.c(299): Reading src /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/mixture_weights
+INFO: s3mixw_io.c(117): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/mixture_weights [186x1x1 array]
+INFO: main.c(309): Reading src /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/transition_matrices
+INFO: s3tmat_io.c(118): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/transition_matrices [62x3x4 array]
+INFO: main.c(318): Reading src /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/means
+INFO: s3gau_io.c(169): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/means [186x1x1 array]
+INFO: main.c(342): Reading src /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/variances
+INFO: s3gau_io.c(169): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/variances [186x1x1 array]
+INFO: main.c(391): Reading dest /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.200.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 2006 total models defined (62 base, 1944 tri)
+INFO: model_def_io.c(575): 8024 total states
+INFO: model_def_io.c(576): 386 total tied states
+INFO: model_def_io.c(577): 186 total tied CI states
+INFO: model_def_io.c(578): 62 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(407): Generating continous ts2cb mapping
+INFO: main.c(431): Calculating initial model parameters
+INFO: main.c(439): Alloc 62x3x4 dest tmat
+INFO: main.c(450): Alloc 386x1x1 dest mixw
+INFO: main.c(463): Alloc 386x1x1 dest mean and var
+       'an <- 'an       : [tm     0 +=     0]
+[mx     0(0) +=     0] [mg     0(0) <-     0] [mx     1(1) +=     1] [mg     1(1) <-     1] [mx     2(2) +=     2] [mg     2(2) <-     2] 
+       'ī <- 'ī       : [tm     1 +=     1]
+[mx     3(0) +=     3] [mg     3(0) <-     3] [mx     4(1) +=     4] [mg     4(1) <-     4] [mx     5(2) +=     5] [mg     5(2) <-     5] 
+       SIL <- SIL       : [tm     2 +=     2]
+[mx     6(0) +=     6] [mg     6(0) <-     6] [mx     7(1) +=     7] [mg     7(1) <-     7] [mx     8(2) +=     8] [mg     8(2) <-     8] 
+        `a <- `a        : [tm     3 +=     3]
+[mx     9(0) +=     9] [mg     9(0) <-     9] [mx    10(1) +=    10] [mg    10(1) <-    10] [mx    11(2) +=    11] [mg    11(2) <-    11] 
+       `am <- `am       : [tm     4 +=     4]
+[mx    12(0) +=    12] [mg    12(0) <-    12] [mx    13(1) +=    13] [mg    13(1) <-    13] [mx    14(2) +=    14] [mg    14(2) <-    14] 
+       `ā <- `ā       : [tm     5 +=     5]
+[mx    15(0) +=    15] [mg    15(0) <-    15] [mx    16(1) +=    16] [mg    16(1) <-    16] [mx    17(2) +=    17] [mg    17(2) <-    17] 
+       `ī <- `ī       : [tm     6 +=     6]
+[mx    18(0) +=    18] [mg    18(0) <-    18] [mx    19(1) +=    19] [mg    19(1) <-    19] [mx    20(2) +=    20] [mg    20(2) <-    20] 
+       ad- <- ad-       : [tm     7 +=     7]
+[mx    21(0) +=    21] [mg    21(0) <-    21] [mx    22(1) +=    22] [mg    22(1) <-    22] [mx    23(2) +=    23] [mg    23(2) <-    23] 
+        ah <- ah        : [tm     8 +=     8]
+[mx    24(0) +=    24] [mg    24(0) <-    24] [mx    25(1) +=    25] [mg    25(1) <-    25] [mx    26(2) +=    26] [mg    26(2) <-    26] 
+        al <- al        : [tm     9 +=     9]
+[mx    27(0) +=    27] [mg    27(0) <-    27] [mx    28(1) +=    28] [mg    28(1) <-    28] [mx    29(2) +=    29] [mg    29(2) <-    29] 
+       all <- all       : [tm    10 +=    10]
+[mx    30(0) +=    30] [mg    30(0) <-    30] [mx    31(1) +=    31] [mg    31(1) <-    31] [mx    32(2) +=    32] [mg    32(2) <-    32] 
+       ar- <- ar-       : [tm    11 +=    11]
+[mx    33(0) +=    33] [mg    33(0) <-    33] [mx    34(1) +=    34] [mg    34(1) <-    34] [mx    35(2) +=    35] [mg    35(2) <-    35] 
+      ađ- <- ađ-      : [tm    12 +=    12]
+[mx    36(0) +=    36] [mg    36(0) <-    36] [mx    37(1) +=    37] [mg    37(1) <-    37] [mx    38(2) +=    38] [mg    38(2) <-    38] 
+      aş- <- aş-      : [tm    13 +=    13]
+[mx    39(0) +=    39] [mg    39(0) <-    39] [mx    40(1) +=    40] [mg    40(1) <-    40] [mx    41(2) +=    41] [mg    41(2) <-    41] 
+       bbi <- bbi       : [tm    14 +=    14]
+[mx    42(0) +=    42] [mg    42(0) <-    42] [mx    43(1) +=    43] [mg    43(1) <-    43] [mx    44(2) +=    44] [mg    44(2) <-    44] 
+        bi <- bi        : [tm    15 +=    15]
+[mx    45(0) +=    45] [mg    45(0) <-    45] [mx    46(1) +=    46] [mg    46(1) <-    46] [mx    47(2) +=    47] [mg    47(2) <-    47] 
+        bu <- bu        : [tm    16 +=    16]
+[mx    48(0) +=    48] [mg    48(0) <-    48] [mx    49(1) +=    49] [mg    49(1) <-    49] [mx    50(2) +=    50] [mg    50(2) <-    50] 
+      dhī <- dhī      : [tm    17 +=    17]
+[mx    51(0) +=    51] [mg    51(0) <-    51] [mx    52(1) +=    52] [mg    52(1) <-    52] [mx    53(2) +=    53] [mg    53(2) <-    53] 
+        di <- di        : [tm    18 +=    18]
+[mx    54(0) +=    54] [mg    54(0) <-    54] [mx    55(1) +=    55] [mg    55(1) <-    55] [mx    56(2) +=    56] [mg    56(2) <-    56] 
+        du <- du        : [tm    19 +=    19]
+[mx    57(0) +=    57] [mg    57(0) <-    57] [mx    58(1) +=    58] [mg    58(1) <-    58] [mx    59(2) +=    59] [mg    59(2) <-    59] 
+       dī <- dī       : [tm    20 +=    20]
+[mx    60(0) +=    60] [mg    60(0) <-    60] [mx    61(1) +=    61] [mg    61(1) <-    61] [mx    62(2) +=    62] [mg    62(2) <-    62] 
+      ghay <- ghay      : [tm    21 +=    21]
+[mx    63(0) +=    63] [mg    63(0) <-    63] [mx    64(1) +=    64] [mg    64(1) <-    64] [mx    65(2) +=    65] [mg    65(2) <-    65] 
+         h <- h         : [tm    22 +=    22]
+[mx    66(0) +=    66] [mg    66(0) <-    66] [mx    67(1) +=    67] [mg    67(1) <-    67] [mx    68(2) +=    68] [mg    68(2) <-    68] 
+        hi <- hi        : [tm    23 +=    23]
+[mx    69(0) +=    69] [mg    69(0) <-    69] [mx    70(1) +=    70] [mg    70(1) <-    70] [mx    71(2) +=    71] [mg    71(2) <-    71] 
+       him <- him       : [tm    24 +=    24]
+[mx    72(0) +=    72] [mg    72(0) <-    72] [mx    73(1) +=    73] [mg    73(1) <-    73] [mx    74(2) +=    74] [mg    74(2) <-    74] 
+        ka <- ka        : [tm    25 +=    25]
+[mx    75(0) +=    75] [mg    75(0) <-    75] [mx    76(1) +=    76] [mg    76(1) <-    76] [mx    77(2) +=    77] [mg    77(2) <-    77] 
+        ki <- ki        : [tm    26 +=    26]
+[mx    78(0) +=    78] [mg    78(0) <-    78] [mx    79(1) +=    79] [mg    79(1) <-    79] [mx    80(2) +=    80] [mg    80(2) <-    80] 
+        la <- la        : [tm    27 +=    27]
+[mx    81(0) +=    81] [mg    81(0) <-    81] [mx    82(1) +=    82] [mg    82(1) <-    82] [mx    83(2) +=    83] [mg    83(2) <-    83] 
+       lay <- lay       : [tm    28 +=    28]
+[mx    84(0) +=    84] [mg    84(0) <-    84] [mx    85(1) +=    85] [mg    85(1) <-    85] [mx    86(2) +=    86] [mg    86(2) <-    86] 
+        li <- li        : [tm    29 +=    29]
+[mx    87(0) +=    87] [mg    87(0) <-    87] [mx    88(1) +=    88] [mg    88(1) <-    88] [mx    89(2) +=    89] [mg    89(2) <-    89] 
+       lil <- lil       : [tm    30 +=    30]
+[mx    90(0) +=    90] [mg    90(0) <-    90] [mx    91(1) +=    91] [mg    91(1) <-    91] [mx    92(2) +=    92] [mg    92(2) <-    92] 
+    llīna <- llīna    : [tm    31 +=    31]
+[mx    93(0) +=    93] [mg    93(0) <-    93] [mx    94(1) +=    94] [mg    94(1) <-    94] [mx    95(2) +=    95] [mg    95(2) <-    95] 
+       lā <- lā       : [tm    32 +=    32]
+[mx    96(0) +=    96] [mg    96(0) <-    96] [mx    97(1) +=    97] [mg    97(1) <-    97] [mx    98(2) +=    98] [mg    98(2) <-    98] 
+        ma <- ma        : [tm    33 +=    33]
+[mx    99(0) +=    99] [mg    99(0) <-    99] [mx   100(1) +=   100] [mg   100(1) <-   100] [mx   101(2) +=   101] [mg   101(2) <-   101] 
+      magh <- magh      : [tm    34 +=    34]
+[mx   102(0) +=   102] [mg   102(0) <-   102] [mx   103(1) +=   103] [mg   103(1) <-   103] [mx   104(2) +=   104] [mg   104(2) <-   104] 
+        mi <- mi        : [tm    35 +=    35]
+[mx   105(0) +=   105] [mg   105(0) <-   105] [mx   106(1) +=   106] [mg   106(1) <-   106] [mx   107(2) +=   107] [mg   107(2) <-   107] 
+       mus <- mus       : [tm    36 +=    36]
+[mx   108(0) +=   108] [mg   108(0) <-   108] [mx   109(1) +=   109] [mg   109(1) <-   109] [mx   110(2) +=   110] [mg   110(2) <-   110] 
+       mā <- mā       : [tm    37 +=    37]
+[mx   111(0) +=   111] [mg   111(0) <-   111] [mx   112(1) +=   112] [mg   112(1) <-   112] [mx   113(2) +=   113] [mg   113(2) <-   113] 
+       mī <- mī       : [tm    38 +=    38]
+[mx   114(0) +=   114] [mg   114(0) <-   114] [mx   115(1) +=   115] [mg   115(1) <-   115] [mx   116(2) +=   116] [mg   116(2) <-   116] 
+        na <- na        : [tm    39 +=    39]
+[mx   117(0) +=   117] [mg   117(0) <-   117] [mx   118(1) +=   118] [mg   118(1) <-   118] [mx   119(2) +=   119] [mg   119(2) <-   119] 
+       na` <- na`       : [tm    40 +=    40]
+[mx   120(0) +=   120] [mg   120(0) <-   120] [mx   121(1) +=   121] [mg   121(1) <-   121] [mx   122(2) +=   122] [mg   122(2) <-   122] 
+       nas <- nas       : [tm    41 +=    41]
+[mx   123(0) +=   123] [mg   123(0) <-   123] [mx   124(1) +=   124] [mg   124(1) <-   124] [mx   125(2) +=   125] [mg   125(2) <-   125] 
+        ni <- ni        : [tm    42 +=    42]
+[mx   126(0) +=   126] [mg   126(0) <-   126] [mx   127(1) +=   127] [mg   127(1) <-   127] [mx   128(2) +=   128] [mg   128(2) <-   128] 
+        nu <- nu        : [tm    43 +=    43]
+[mx   129(0) +=   129] [mg   129(0) <-   129] [mx   130(1) +=   130] [mg   130(1) <-   130] [mx   131(2) +=   131] [mg   131(2) <-   131] 
+       nā <- nā       : [tm    44 +=    44]
+[mx   132(0) +=   132] [mg   132(0) <-   132] [mx   133(1) +=   133] [mg   133(1) <-   133] [mx   134(2) +=   134] [mg   134(2) <-   134] 
+       qī <- qī       : [tm    45 +=    45]
+[mx   135(0) +=   135] [mg   135(0) <-   135] [mx   136(1) +=   136] [mg   136(1) <-   136] [mx   137(2) +=   137] [mg   137(2) <-   137] 
+        ra <- ra        : [tm    46 +=    46]
+[mx   138(0) +=   138] [mg   138(0) <-   138] [mx   139(1) +=   139] [mg   139(1) <-   139] [mx   140(2) +=   140] [mg   140(2) <-   140] 
+        ri <- ri        : [tm    47 +=    47]
+[mx   141(0) +=   141] [mg   141(0) <-   141] [mx   142(1) +=   142] [mg   142(1) <-   142] [mx   143(2) +=   143] [mg   143(2) <-   143] 
+       rā <- rā       : [tm    48 +=    48]
+[mx   144(0) +=   144] [mg   144(0) <-   144] [mx   145(1) +=   145] [mg   145(1) <-   145] [mx   146(2) +=   146] [mg   146(2) <-   146] 
+         s <- s         : [tm    49 +=    49]
+[mx   147(0) +=   147] [mg   147(0) <-   147] [mx   148(1) +=   148] [mg   148(1) <-   148] [mx   149(2) +=   149] [mg   149(2) <-   149] 
+        ta <- ta        : [tm    50 +=    50]
+[mx   150(0) +=   150] [mg   150(0) <-   150] [mx   151(1) +=   151] [mg   151(1) <-   151] [mx   152(2) +=   152] [mg   152(2) <-   152] 
+        wa <- wa        : [tm    51 +=    51]
+[mx   153(0) +=   153] [mg   153(0) <-   153] [mx   154(1) +=   154] [mg   154(1) <-   154] [mx   155(2) +=   155] [mg   155(2) <-   155] 
+       yaw <- yaw       : [tm    52 +=    52]
+[mx   156(0) +=   156] [mg   156(0) <-   156] [mx   157(1) +=   157] [mg   157(1) <-   157] [mx   158(2) +=   158] [mg   158(2) <-   158] 
+       yā <- yā       : [tm    53 +=    53]
+[mx   159(0) +=   159] [mg   159(0) <-   159] [mx   160(1) +=   160] [mg   160(1) <-   160] [mx   161(2) +=   161] [mg   161(2) <-   161] 
+        ā <- ā        : [tm    54 +=    54]
+[mx   162(0) +=   162] [mg   162(0) <-   162] [mx   163(1) +=   163] [mg   163(1) <-   163] [mx   164(2) +=   164] [mg   164(2) <-   164] 
+      đā <- đā      : [tm    55 +=    55]
+[mx   165(0) +=   165] [mg   165(0) <-   165] [mx   166(1) +=   166] [mg   166(1) <-   166] [mx   167(2) +=   167] [mg   167(2) <-   167] 
+      đū <- đū      : [tm    56 +=    56]
+[mx   168(0) +=   168] [mg   168(0) <-   168] [mx   169(1) +=   169] [mg   169(1) <-   169] [mx   170(2) +=   170] [mg   170(2) <-   170] 
+        ĥ <- ĥ        : [tm    57 +=    57]
+[mx   171(0) +=   171] [mg   171(0) <-   171] [mx   172(1) +=   172] [mg   172(1) <-   172] [mx   173(2) +=   173] [mg   173(2) <-   173] 
+      ĥam <- ĥam      : [tm    58 +=    58]
+[mx   174(0) +=   174] [mg   174(0) <-   174] [mx   175(1) +=   175] [mg   175(1) <-   175] [mx   176(2) +=   176] [mg   176(2) <-   176] 
+      ĥī <- ĥī      : [tm    59 +=    59]
+[mx   177(0) +=   177] [mg   177(0) <-   177] [mx   178(1) +=   178] [mg   178(1) <-   178] [mx   179(2) +=   179] [mg   179(2) <-   179] 
+       şi <- şi       : [tm    60 +=    60]
+[mx   180(0) +=   180] [mg   180(0) <-   180] [mx   181(1) +=   181] [mg   181(1) <-   181] [mx   182(2) +=   182] [mg   182(2) <-   182] 
+       ţa <- ţa       : [tm    61 +=    61]
+[mx   183(0) +=   183] [mg   183(0) <-   183] [mx   184(1) +=   184] [mg   184(1) <-   184] [mx   185(2) +=   185] [mg   185(2) <-   185] 
+'an SIL `am b <- 'an       : [mx   186(0) +=     0] [mg   186(0) <-     0] [mx   187(1) +=     1] [mg   187(1) <-     1] [mx   188(2) +=     2] [mg   188(2) <-     2] 
+'an bbi `am b <- 'an       : 
+'an bi `am b <- 'an       : 
+'an du `am b <- 'an       : 
+'an h `am b <- 'an       : 
+'an hi `am b <- 'an       : 
+'an him `am b <- 'an       : 
+'an ka `am b <- 'an       : 
+'an ki `am b <- 'an       : 
+'an llīna `am b <- 'an       : 
+'an lā `am b <- 'an       : 
+'an ma `am b <- 'an       : 
+'an mi `am b <- 'an       : 
+'an na `am b <- 'an       : 
+'an ni `am b <- 'an       : 
+'an nu `am b <- 'an       : 
+'an nā `am b <- 'an       : 
+'an ri `am b <- 'an       : 
+'an ta `am b <- 'an       : 
+'an wa `am b <- 'an       : 
+'an ţa `am b <- 'an       : 
+'ī SIL yā b <- 'ī       : [mx   189(0) +=     3] [mg   189(0) <-     3] [mx   190(1) +=     4] [mg   190(1) <-     4] [mx   192(2) +=     5] [mg   192(2) <-     5] 
+'ī bbi yā b <- 'ī       : [mx   191(2) +=     5] [mg   191(2) <-     5] 
+'ī bi yā b <- 'ī       : 
+'ī du yā b <- 'ī       : 
+'ī h yā b <- 'ī       : 
+'ī hi yā b <- 'ī       : 
+'ī him yā b <- 'ī       : 
+'ī ka yā b <- 'ī       : 
+'ī ki yā b <- 'ī       : 
+'ī llīna yā b <- 'ī       : 
+'ī lā yā b <- 'ī       : 
+'ī ma yā b <- 'ī       : 
+'ī mi yā b <- 'ī       : 
+'ī na yā b <- 'ī       : 
+'ī ni yā b <- 'ī       : 
+'ī nu yā b <- 'ī       : 
+'ī nā yā b <- 'ī       : 
+'ī ri yā b <- 'ī       : 
+'ī ta yā b <- 'ī       : 
+'ī wa yā b <- 'ī       : 
+'ī ţa yā b <- 'ī       : 
+`a SIL lay b <- `a        : [mx   193(0) +=     9] [mg   193(0) <-     9] [mx   194(1) +=    10] [mg   194(1) <-    10] [mx   195(2) +=    11] [mg   195(2) <-    11] 
+`a bbi lay b <- `a        : 
+`a bi lay b <- `a        : 
+`a du lay b <- `a        : 
+`a h lay b <- `a        : 
+`a hi lay b <- `a        : 
+`a him lay b <- `a        : 
+`a ka lay b <- `a        : 
+`a ki lay b <- `a        : 
+`a llīna lay b <- `a        : 
+`a lā lay b <- `a        : 
+`a ma lay b <- `a        : 
+`a mi lay b <- `a        : 
+`a na lay b <- `a        : 
+`a ni lay b <- `a        : 
+`a nu lay b <- `a        : 
+`a nā lay b <- `a        : 
+`a ri lay b <- `a        : 
+`a ta lay b <- `a        : 
+`a wa lay b <- `a        : 
+`a ţa lay b <- `a        : 
+`am 'an ta i <- `am       : [mx   196(0) +=    12] [mg   196(0) <-    12] [mx   197(1) +=    13] [mg   197(1) <-    13] [mx   198(2) +=    14] [mg   198(2) <-    14] 
+`ā al la i <- `ā       : [mx   199(0) +=    15] [mg   199(0) <-    15] [mx   200(1) +=    16] [mg   200(1) <-    16] [mx   201(2) +=    17] [mg   201(2) <-    17] 
+`ī ta nu i <- `ī       : [mx   202(0) +=    18] [mg   202(0) <-    18] [mx   203(1) +=    19] [mg   203(1) <-    19] [mx   204(2) +=    20] [mg   204(2) <-    20] 
+ad- SIL dī b <- ad-       : [mx   205(0) +=    21] [mg   205(0) <-    21] [mx   206(1) +=    22] [mg   206(1) <-    22] [mx   207(2) +=    23] [mg   207(2) <-    23] 
+ad- bbi dī b <- ad-       : 
+ad- bi dī b <- ad-       : 
+ad- du dī b <- ad-       : 
+ad- h dī b <- ad-       : 
+ad- hi dī b <- ad-       : 
+ad- him dī b <- ad-       : 
+ad- ka dī b <- ad-       : 
+ad- ki dī b <- ad-       : 
+ad- llīna dī b <- ad-       : 
+ad- lā dī b <- ad-       : 
+ad- ma dī b <- ad-       : 
+ad- mi dī b <- ad-       : 
+ad- na dī b <- ad-       : 
+ad- ni dī b <- ad-       : 
+ad- nu dī b <- ad-       : 
+ad- nā dī b <- ad-       : 
+ad- ri dī b <- ad-       : 
+ad- ta dī b <- ad-       : 
+ad- wa dī b <- ad-       : 
+ad- ţa dī b <- ad-       : 
+ah SIL di b <- ah        : [mx   208(0) +=    24] [mg   208(0) <-    24] [mx   209(1) +=    25] [mg   209(1) <-    25] [mx   210(2) +=    26] [mg   210(2) <-    26] 
+ah bbi di b <- ah        : 
+ah bi di b <- ah        : 
+ah du di b <- ah        : 
+ ah h di b <- ah        : 
+ah hi di b <- ah        : 
+ah him di b <- ah        : 
+ah ka di b <- ah        : 
+ah ki di b <- ah        : 
+ah llīna di b <- ah        : 
+ah lā di b <- ah        : 
+ah ma di b <- ah        : 
+ah mi di b <- ah        : 
+ah na di b <- ah        : 
+ah ni di b <- ah        : 
+ah nu di b <- ah        : 
+ah nā di b <- ah        : 
+ah ri di b <- ah        : 
+ah ta di b <- ah        : 
+ah wa di b <- ah        : 
+ah ţa di b <- ah        : 
+al SIL `ā b <- al        : [mx   212(0) +=    27] [mg   212(0) <-    27] [mx   213(1) +=    28] [mg   213(1) <-    28] [mx   216(2) +=    29] [mg   216(2) <-    29] 
+al SIL la b <- al        : [mx   215(2) +=    29] [mg   215(2) <-    29] 
+al SIL magh b <- al        : [mx   214(2) +=    29] [mg   214(2) <-    29] 
+al SIL mus b <- al        : [mx   211(0) +=    27] [mg   211(0) <-    27] 
+al SIL ĥam b <- al        : 
+al bbi `ā b <- al        : 
+al bbi la b <- al        : 
+al bbi magh b <- al        : 
+al bbi mus b <- al        : 
+al bbi ĥam b <- al        : 
+al bi `ā b <- al        : 
+al bi la b <- al        : 
+al bi magh b <- al        : 
+al bi mus b <- al        : 
+al bi ĥam b <- al        : 
+al du `ā b <- al        : 
+al du la b <- al        : 
+al du magh b <- al        : 
+al du mus b <- al        : 
+al du ĥam b <- al        : 
+al h `ā b <- al        : 
+ al h la b <- al        : 
+al h magh b <- al        : 
+al h mus b <- al        : 
+al h ĥam b <- al        : 
+al hi `ā b <- al        : 
+al hi la b <- al        : 
+al hi magh b <- al        : 
+al hi mus b <- al        : 
+al hi ĥam b <- al        : 
+al him `ā b <- al        : 
+al him la b <- al        : 
+al him magh b <- al        : 
+al him mus b <- al        : 
+al him ĥam b <- al        : 
+al ka `ā b <- al        : 
+al ka la b <- al        : 
+al ka magh b <- al        : 
+al ka mus b <- al        : 
+al ka ĥam b <- al        : 
+al ki `ā b <- al        : 
+al ki la b <- al        : 
+al ki magh b <- al        : 
+al ki mus b <- al        : 
+al ki ĥam b <- al        : 
+al llīna `ā b <- al        : 
+al llīna la b <- al        : 
+al llīna magh b <- al        : 
+al llīna mus b <- al        : 
+al llīna ĥam b <- al        : 
+al lā `ā b <- al        : 
+al lā la b <- al        : 
+al lā magh b <- al        : 
+al lā mus b <- al        : 
+al lā ĥam b <- al        : 
+al ma `ā b <- al        : 
+al ma la b <- al        : 
+al ma magh b <- al        : 
+al ma mus b <- al        : 
+al ma ĥam b <- al        : 
+al mi `ā b <- al        : 
+al mi la b <- al        : 
+al mi magh b <- al        : 
+al mi mus b <- al        : 
+al mi ĥam b <- al        : 
+al na `ā b <- al        : 
+al na la b <- al        : 
+al na magh b <- al        : 
+al na mus b <- al        : 
+al na ĥam b <- al        : 
+al ni `ā b <- al        : 
+al ni la b <- al        : 
+al ni magh b <- al        : 
+al ni mus b <- al        : 
+al ni ĥam b <- al        : 
+al nu `ā b <- al        : 
+al nu la b <- al        : 
+al nu magh b <- al        : 
+al nu mus b <- al        : 
+al nu ĥam b <- al        : 
+al nā `ā b <- al        : 
+al nā la b <- al        : 
+al nā magh b <- al        : 
+al nā mus b <- al        : 
+al nā ĥam b <- al        : 
+al ri `ā b <- al        : 
+al ri la b <- al        : 
+al ri magh b <- al        : 
+al ri mus b <- al        : 
+al ri ĥam b <- al        : 
+al ta `ā b <- al        : 
+al ta la b <- al        : 
+al ta magh b <- al        : 
+al ta mus b <- al        : 
+al ta ĥam b <- al        : 
+al wa `ā b <- al        : 
+al wa la b <- al        : 
+al wa magh b <- al        : 
+al wa mus b <- al        : 
+al wa ĥam b <- al        : 
+al ţa `ā b <- al        : 
+al ţa la b <- al        : 
+al ţa magh b <- al        : 
+al ţa mus b <- al        : 
+al ţa ĥam b <- al        : 
+all SIL ā b <- all       : [mx   217(0) +=    30] [mg   217(0) <-    30] [mx   218(1) +=    31] [mg   218(1) <-    31] [mx   219(2) +=    32] [mg   219(2) <-    32] 
+all bbi ā b <- all       : 
+all bi ā b <- all       : 
+all du ā b <- all       : 
+all h ā b <- all       : 
+all hi ā b <- all       : 
+all him ā b <- all       : 
+all ka ā b <- all       : 
+all ki ā b <- all       : 
+all llīna ā b <- all       : 
+all lā ā b <- all       : 
+all ma ā b <- all       : 
+all mi ā b <- all       : 
+all na ā b <- all       : 
+all ni ā b <- all       : 
+all nu ā b <- all       : 
+all nā ā b <- all       : 
+all ri ā b <- all       : 
+all ta ā b <- all       : 
+all wa ā b <- all       : 
+all ţa ā b <- all       : 
+ar- SIL ra b <- ar-       : [mx   220(0) +=    33] [mg   220(0) <-    33] [mx   221(1) +=    34] [mg   221(1) <-    34] [mx   222(2) +=    35] [mg   222(2) <-    35] 
+ar- bbi ra b <- ar-       : 
+ar- bi ra b <- ar-       : 
+ar- du ra b <- ar-       : 
+ar- h ra b <- ar-       : 
+ar- hi ra b <- ar-       : 
+ar- him ra b <- ar-       : 
+ar- ka ra b <- ar-       : 
+ar- ki ra b <- ar-       : 
+ar- llīna ra b <- ar-       : 
+ar- lā ra b <- ar-       : 
+ar- ma ra b <- ar-       : 
+ar- mi ra b <- ar-       : 
+ar- na ra b <- ar-       : 
+ar- ni ra b <- ar-       : 
+ar- nu ra b <- ar-       : 
+ar- nā ra b <- ar-       : 
+ar- ri ra b <- ar-       : 
+ar- ta ra b <- ar-       : 
+ar- wa ra b <- ar-       : 
+ar- ţa ra b <- ar-       : 
+ađ- SIL đā b <- ađ-      : [mx   223(0) +=    36] [mg   223(0) <-    36] [mx   224(1) +=    37] [mg   224(1) <-    37] [mx   225(2) +=    38] [mg   225(2) <-    38] 
+ađ- bbi đā b <- ađ-      : 
+ađ- bi đā b <- ađ-      : 
+ađ- du đā b <- ađ-      : 
+ađ- h đā b <- ađ-      : 
+ađ- hi đā b <- ađ-      : 
+ađ- him đā b <- ađ-      : 
+ađ- ka đā b <- ađ-      : 
+ađ- ki đā b <- ađ-      : 
+ađ- llīna đā b <- ađ-      : 
+ađ- lā đā b <- ađ-      : 
+ađ- ma đā b <- ađ-      : 
+ađ- mi đā b <- ađ-      : 
+ađ- na đā b <- ađ-      : 
+ađ- ni đā b <- ađ-      : 
+ađ- nu đā b <- ađ-      : 
+ađ- nā đā b <- ađ-      : 
+ađ- ri đā b <- ađ-      : 
+ađ- ta đā b <- ađ-      : 
+ađ- wa đā b <- ađ-      : 
+ađ- ţa đā b <- ađ-      : 
+aş- SIL şi b <- aş-      : [mx   226(0) +=    39] [mg   226(0) <-    39] [mx   227(1) +=    40] [mg   227(1) <-    40] [mx   228(2) +=    41] [mg   228(2) <-    41] 
+aş- bbi şi b <- aş-      : 
+aş- bi şi b <- aş-      : 
+aş- du şi b <- aş-      : 
+aş- h şi b <- aş-      : 
+aş- hi şi b <- aş-      : 
+aş- him şi b <- aş-      : 
+aş- ka şi b <- aş-      : 
+aş- ki şi b <- aş-      : 
+aş- llīna şi b <- aş-      : 
+aş- lā şi b <- aş-      : 
+aş- ma şi b <- aş-      : 
+aş- mi şi b <- aş-      : 
+aş- na şi b <- aş-      : 
+aş- ni şi b <- aş-      : 
+aş- nu şi b <- aş-      : 
+aş- nā şi b <- aş-      : 
+aş- ri şi b <- aş-      : 
+aş- ta şi b <- aş-      : 
+aş- wa şi b <- aş-      : 
+aş- ţa şi b <- aş-      : 
+bbi ra 'an e <- bbi       : [mx   229(0) +=    42] [mg   229(0) <-    42] [mx   230(1) +=    43] [mg   230(1) <-    43] [mx   231(2) +=    44] [mg   231(2) <-    44] 
+bbi ra 'ī e <- bbi       : 
+bbi ra SIL e <- bbi       : 
+bbi ra `a e <- bbi       : 
+bbi ra ad- e <- bbi       : 
+bbi ra ah e <- bbi       : 
+bbi ra al e <- bbi       : 
+bbi ra all e <- bbi       : 
+bbi ra ar- e <- bbi       : 
+bbi ra ađ- e <- bbi       : 
+bbi ra aş- e <- bbi       : 
+bbi ra bi e <- bbi       : 
+bbi ra ghay e <- bbi       : 
+bbi ra lil e <- bbi       : 
+bbi ra lā e <- bbi       : 
+bbi ra mā e <- bbi       : 
+bbi ra na` e <- bbi       : 
+bbi ra nas e <- bbi       : 
+bbi ra ra e <- bbi       : 
+bbi ra wa e <- bbi       : 
+bbi ra yaw e <- bbi       : 
+bbi ra şi e <- bbi       : 
+bi SIL s b <- bi        : [mx   232(0) +=    45] [mg   232(0) <-    45] [mx   233(1) +=    46] [mg   233(1) <-    46] [mx   234(2) +=    47] [mg   234(2) <-    47] 
+bi bbi s b <- bi        : 
+ bi bi s b <- bi        : 
+ bi du s b <- bi        : 
+  bi h s b <- bi        : 
+ bi hi s b <- bi        : 
+bi him s b <- bi        : 
+ bi ka s b <- bi        : 
+ bi ki s b <- bi        : 
+bi llīna s b <- bi        : 
+bi lā s b <- bi        : 
+ bi ma s b <- bi        : 
+ bi mi s b <- bi        : 
+ bi na s b <- bi        : 
+ bi ni s b <- bi        : 
+ bi nu s b <- bi        : 
+bi nā s b <- bi        : 
+ bi ri s b <- bi        : 
+ bi ta s b <- bi        : 
+ bi wa s b <- bi        : 
+bi đū 'an e <- bi        : 
+bi đū 'ī e <- bi        : 
+bi đū SIL e <- bi        : 
+bi đū `a e <- bi        : 
+bi đū ad- e <- bi        : 
+bi đū ah e <- bi        : 
+bi đū al e <- bi        : 
+bi đū all e <- bi        : 
+bi đū ar- e <- bi        : 
+bi đū ađ- e <- bi        : 
+bi đū aş- e <- bi        : 
+bi đū bi e <- bi        : 
+bi đū ghay e <- bi        : 
+bi đū lil e <- bi        : 
+bi đū lā e <- bi        : 
+bi đū mā e <- bi        : 
+bi đū na` e <- bi        : 
+bi đū nas e <- bi        : 
+bi đū ra e <- bi        : 
+bi đū wa e <- bi        : 
+bi đū yaw e <- bi        : 
+bi đū şi e <- bi        : 
+bi ţa s b <- bi        : 
+bu na` du i <- bu        : [mx   235(0) +=    48] [mg   235(0) <-    48] [mx   236(1) +=    49] [mg   236(1) <-    49] [mx   237(2) +=    50] [mg   237(2) <-    50] 
+dhī la na i <- dhī      : [mx   238(0) +=    51] [mg   238(0) <-    51] [mx   239(1) +=    52] [mg   239(1) <-    52] [mx   240(2) +=    53] [mg   240(2) <-    53] 
+di ah nā i <- di        : [mx   241(0) +=    54] [mg   241(0) <-    54] [mx   242(1) +=    55] [mg   242(1) <-    55] [mx   243(2) +=    56] [mg   243(2) <-    56] 
+du bu 'an e <- du        : [mx   244(0) +=    57] [mg   244(0) <-    57] [mx   245(1) +=    58] [mg   245(1) <-    58] [mx   248(2) +=    59] [mg   248(2) <-    59] 
+du bu 'ī e <- du        : 
+du bu SIL e <- du        : 
+du bu `a e <- du        : 
+du bu ad- e <- du        : 
+du bu ah e <- du        : 
+du bu al e <- du        : [mx   246(1) +=    58] [mg   246(1) <-    58] [mx   247(2) +=    59] [mg   247(2) <-    59] 
+du bu all e <- du        : 
+du bu ar- e <- du        : 
+du bu ađ- e <- du        : 
+du bu aş- e <- du        : 
+du bu bi e <- du        : 
+du bu ghay e <- du        : 
+du bu lil e <- du        : 
+du bu lā e <- du        : 
+du bu mā e <- du        : 
+du bu na` e <- du        : 
+du bu nas e <- du        : 
+du bu ra e <- du        : 
+du bu wa e <- du        : 
+du bu yaw e <- du        : 
+du bu şi e <- du        : 
+du ĥam 'an e <- du        : 
+du ĥam 'ī e <- du        : 
+du ĥam SIL e <- du        : 
+du ĥam `a e <- du        : 
+du ĥam ad- e <- du        : 
+du ĥam ah e <- du        : 
+du ĥam al e <- du        : 
+du ĥam all e <- du        : 
+du ĥam ar- e <- du        : 
+du ĥam ađ- e <- du        : 
+du ĥam aş- e <- du        : 
+du ĥam bi e <- du        : 
+du ĥam ghay e <- du        : 
+du ĥam lil e <- du        : 
+du ĥam lā e <- du        : 
+du ĥam mā e <- du        : 
+du ĥam na` e <- du        : 
+du ĥam nas e <- du        : 
+du ĥam ra e <- du        : 
+du ĥam wa e <- du        : 
+du ĥam yaw e <- du        : 
+du ĥam şi e <- du        : 
+dī ad- ni i <- dī       : [mx   249(0) +=    60] [mg   249(0) <-    60] [mx   250(1) +=    61] [mg   250(1) <-    61] [mx   251(2) +=    62] [mg   251(2) <-    62] 
+ghay SIL ri b <- ghay      : [mx   252(0) +=    63] [mg   252(0) <-    63] [mx   253(1) +=    64] [mg   253(1) <-    64] [mx   254(2) +=    65] [mg   254(2) <-    65] 
+ghay bbi ri b <- ghay      : 
+ghay bi ri b <- ghay      : 
+ghay du ri b <- ghay      : 
+ghay h ri b <- ghay      : 
+ghay hi ri b <- ghay      : 
+ghay him ri b <- ghay      : 
+ghay ka ri b <- ghay      : 
+ghay ki ri b <- ghay      : 
+ghay llīna ri b <- ghay      : 
+ghay lā ri b <- ghay      : 
+ghay ma ri b <- ghay      : 
+ghay mi ri b <- ghay      : 
+ghay na ri b <- ghay      : 
+ghay ni ri b <- ghay      : 
+ghay nu ri b <- ghay      : 
+ghay nā ri b <- ghay      : 
+ghay ri ri b <- ghay      : 
+ghay ta ri b <- ghay      : 
+ghay wa ri b <- ghay      : 
+ghay ţa ri b <- ghay      : 
+h lā 'an e <- h         : [mx   255(0) +=    66] [mg   255(0) <-    66] [mx   256(1) +=    67] [mg   256(1) <-    67] [mx   257(2) +=    68] [mg   257(2) <-    68] 
+h lā 'ī e <- h         : 
+h lā SIL e <- h         : 
+h lā `a e <- h         : 
+h lā ad- e <- h         : 
+h lā ah e <- h         : 
+h lā al e <- h         : 
+h lā all e <- h         : 
+h lā ar- e <- h         : 
+h lā ađ- e <- h         : 
+h lā aş- e <- h         : 
+h lā bi e <- h         : 
+h lā ghay e <- h         : 
+h lā lil e <- h         : 
+h lā lā e <- h         : 
+h lā mā e <- h         : 
+h lā na` e <- h         : 
+h lā nas e <- h         : 
+h lā ra e <- h         : 
+h lā wa e <- h         : 
+h lā yaw e <- h         : 
+h lā şi e <- h         : 
+hi ā 'an e <- hi        : [mx   258(0) +=    69] [mg   258(0) <-    69] [mx   259(1) +=    70] [mg   259(1) <-    70] [mx   260(2) +=    71] [mg   260(2) <-    71] 
+hi ā 'ī e <- hi        : 
+hi ā SIL e <- hi        : 
+hi ā `a e <- hi        : 
+hi ā ad- e <- hi        : 
+hi ā ah e <- hi        : 
+hi ā al e <- hi        : 
+hi ā all e <- hi        : 
+hi ā ar- e <- hi        : 
+hi ā ađ- e <- hi        : 
+hi ā aş- e <- hi        : 
+hi ā bi e <- hi        : 
+hi ā ghay e <- hi        : 
+hi ā lil e <- hi        : 
+hi ā lā e <- hi        : 
+hi ā mā e <- hi        : 
+hi ā na` e <- hi        : 
+hi ā nas e <- hi        : 
+hi ā ra e <- hi        : 
+hi ā wa e <- hi        : 
+hi ā yaw e <- hi        : 
+hi ā şi e <- hi        : 
+him lay 'an e <- him       : [mx   261(0) +=    72] [mg   261(0) <-    72] [mx   262(1) +=    73] [mg   262(1) <-    73] [mx   263(2) +=    74] [mg   263(2) <-    74] 
+him lay 'ī e <- him       : 
+him lay SIL e <- him       : 
+him lay `a e <- him       : 
+him lay ad- e <- him       : 
+him lay ah e <- him       : 
+him lay al e <- him       : 
+him lay all e <- him       : 
+him lay ar- e <- him       : 
+him lay ađ- e <- him       : 
+him lay aş- e <- him       : 
+him lay bi e <- him       : 
+him lay ghay e <- him       : 
+him lay lil e <- him       : 
+him lay lā e <- him       : 
+him lay mā e <- him       : 
+him lay na` e <- him       : 
+him lay nas e <- him       : 
+him lay ra e <- him       : 
+him lay wa e <- him       : 
+him lay yaw e <- him       : 
+him lay şi e <- him       : 
+ka yā 'an e <- ka        : [mx   264(0) +=    75] [mg   264(0) <-    75] [mx   265(1) +=    76] [mg   265(1) <-    76] [mx   266(2) +=    77] [mg   266(2) <-    77] 
+ka yā 'ī e <- ka        : 
+ka yā SIL e <- ka        : 
+ka yā `a e <- ka        : 
+ka yā ad- e <- ka        : 
+ka yā ah e <- ka        : 
+ka yā al e <- ka        : 
+ka yā all e <- ka        : 
+ka yā ar- e <- ka        : 
+ka yā ađ- e <- ka        : 
+ka yā aş- e <- ka        : 
+ka yā bi e <- ka        : 
+ka yā ghay e <- ka        : 
+ka yā lil e <- ka        : 
+ka yā lā e <- ka        : 
+ka yā mā e <- ka        : 
+ka yā na` e <- ka        : 
+ka yā nas e <- ka        : 
+ka yā ra e <- ka        : 
+ka yā wa e <- ka        : 
+ka yā yaw e <- ka        : 
+ka yā şi e <- ka        : 
+ki li 'an e <- ki        : [mx   267(0) +=    78] [mg   267(0) <-    78] [mx   268(1) +=    79] [mg   268(1) <-    79] [mx   269(2) +=    80] [mg   269(2) <-    80] 
+ki li 'ī e <- ki        : 
+ki li SIL e <- ki        : 
+ki li `a e <- ki        : 
+ki li ad- e <- ki        : 
+ki li ah e <- ki        : 
+ki li al e <- ki        : 
+ki li all e <- ki        : 
+ki li ar- e <- ki        : 
+ki li ađ- e <- ki        : 
+ki li aş- e <- ki        : 
+ki li bi e <- ki        : 
+ki li ghay e <- ki        : 
+ki li lil e <- ki        : 
+ki li lā e <- ki        : 
+ki li mā e <- ki        : 
+ki li na` e <- ki        : 
+ki li nas e <- ki        : 
+ki li ra e <- ki        : 
+ki li wa e <- ki        : 
+ki li yaw e <- ki        : 
+ki li şi e <- ki        : 
+la `ā mī i <- la        : [mx   270(0) +=    81] [mg   270(0) <-    81] [mx   272(1) +=    82] [mg   272(1) <-    82] [mx   274(2) +=    83] [mg   274(2) <-    83] 
+la al dhī i <- la        : [mx   271(0) +=    81] [mg   271(0) <-    81] [mx   273(1) +=    82] [mg   273(1) <-    82] [mx   275(2) +=    83] [mg   275(2) <-    83] 
+lay `a him i <- lay       : [mx   276(0) +=    84] [mg   276(0) <-    84] [mx   277(1) +=    85] [mg   277(1) <-    85] [mx   278(2) +=    86] [mg   278(2) <-    86] 
+li mā ki i <- li        : [mx   279(0) +=    87] [mg   279(0) <-    87] [mx   280(1) +=    88] [mg   280(1) <-    88] [mx   281(2) +=    89] [mg   281(2) <-    89] 
+lil SIL lā b <- lil       : [mx   282(0) +=    90] [mg   282(0) <-    90] [mx   283(1) +=    91] [mg   283(1) <-    91] [mx   284(2) +=    92] [mg   284(2) <-    92] 
+lil bbi lā b <- lil       : 
+lil bi lā b <- lil       : 
+lil du lā b <- lil       : 
+lil h lā b <- lil       : 
+lil hi lā b <- lil       : 
+lil him lā b <- lil       : 
+lil ka lā b <- lil       : 
+lil ki lā b <- lil       : 
+lil llīna lā b <- lil       : 
+lil lā lā b <- lil       : 
+lil ma lā b <- lil       : 
+lil mi lā b <- lil       : 
+lil na lā b <- lil       : 
+lil ni lā b <- lil       : 
+lil nu lā b <- lil       : 
+lil nā lā b <- lil       : 
+lil ri lā b <- lil       : 
+lil ta lā b <- lil       : 
+lil wa lā b <- lil       : 
+lil ţa lā b <- lil       : 
+llīna đā 'an e <- llīna    : [mx   285(0) +=    93] [mg   285(0) <-    93] [mx   286(1) +=    94] [mg   286(1) <-    94] [mx   287(2) +=    95] [mg   287(2) <-    95] 
+llīna đā 'ī e <- llīna    : 
+llīna đā SIL e <- llīna    : 
+llīna đā `a e <- llīna    : 
+llīna đā ad- e <- llīna    : 
+llīna đā ah e <- llīna    : 
+llīna đā al e <- llīna    : 
+llīna đā all e <- llīna    : 
+llīna đā ar- e <- llīna    : 
+llīna đā ađ- e <- llīna    : 
+llīna đā aş- e <- llīna    : 
+llīna đā bi e <- llīna    : 
+llīna đā ghay e <- llīna    : 
+llīna đā lil e <- llīna    : 
+llīna đā lā e <- llīna    : 
+llīna đā mā e <- llīna    : 
+llīna đā na` e <- llīna    : 
+llīna đā nas e <- llīna    : 
+llīna đā ra e <- llīna    : 
+llīna đā wa e <- llīna    : 
+llīna đā yaw e <- llīna    : 
+llīna đā şi e <- llīna    : 
+lā SIL 'an s <- lā       : [mx   289(0) +=    96] [mg   289(0) <-    96] [mx   290(1) +=    97] [mg   290(1) <-    97] [mx   293(2) +=    98] [mg   293(2) <-    98] 
+lā SIL 'ī s <- lā       : 
+lā SIL SIL s <- lā       : 
+lā SIL `a s <- lā       : 
+lā SIL ad- s <- lā       : 
+lā SIL ah s <- lā       : 
+lā SIL al s <- lā       : 
+lā SIL all s <- lā       : 
+lā SIL ar- s <- lā       : 
+lā SIL ađ- s <- lā       : 
+lā SIL aş- s <- lā       : 
+lā SIL bi s <- lā       : 
+lā SIL ghay s <- lā       : 
+lā SIL lil s <- lā       : 
+lā SIL lā s <- lā       : 
+lā SIL mā s <- lā       : 
+lā SIL na` s <- lā       : 
+lā SIL nas s <- lā       : 
+lā SIL ra s <- lā       : 
+lā SIL wa s <- lā       : 
+lā SIL yaw s <- lā       : 
+lā SIL şi s <- lā       : 
+lā bbi 'an s <- lā       : 
+lā bbi 'ī s <- lā       : 
+lā bbi SIL s <- lā       : 
+lā bbi `a s <- lā       : 
+lā bbi ad- s <- lā       : 
+lā bbi ah s <- lā       : 
+lā bbi al s <- lā       : 
+lā bbi all s <- lā       : 
+lā bbi ar- s <- lā       : 
+lā bbi ađ- s <- lā       : 
+lā bbi aş- s <- lā       : 
+lā bbi bi s <- lā       : 
+lā bbi ghay s <- lā       : 
+lā bbi lil s <- lā       : 
+lā bbi lā s <- lā       : 
+lā bbi mā s <- lā       : 
+lā bbi na` s <- lā       : 
+lā bbi nas s <- lā       : 
+lā bbi ra s <- lā       : 
+lā bbi wa s <- lā       : 
+lā bbi yaw s <- lā       : 
+lā bbi şi s <- lā       : 
+lā bi 'an s <- lā       : 
+lā bi 'ī s <- lā       : 
+lā bi SIL s <- lā       : 
+lā bi `a s <- lā       : 
+lā bi ad- s <- lā       : 
+lā bi ah s <- lā       : 
+lā bi al s <- lā       : 
+lā bi all s <- lā       : 
+lā bi ar- s <- lā       : 
+lā bi ađ- s <- lā       : 
+lā bi aş- s <- lā       : 
+lā bi bi s <- lā       : 
+lā bi ghay s <- lā       : 
+lā bi lil s <- lā       : 
+lā bi lā s <- lā       : 
+lā bi mā s <- lā       : 
+lā bi na` s <- lā       : 
+lā bi nas s <- lā       : 
+lā bi ra s <- lā       : 
+lā bi wa s <- lā       : 
+lā bi yaw s <- lā       : 
+lā bi şi s <- lā       : 
+lā du 'an s <- lā       : 
+lā du 'ī s <- lā       : 
+lā du SIL s <- lā       : 
+lā du `a s <- lā       : 
+lā du ad- s <- lā       : 
+lā du ah s <- lā       : 
+lā du al s <- lā       : 
+lā du all s <- lā       : 
+lā du ar- s <- lā       : 
+lā du ađ- s <- lā       : 
+lā du aş- s <- lā       : 
+lā du bi s <- lā       : 
+lā du ghay s <- lā       : 
+lā du lil s <- lā       : 
+lā du lā s <- lā       : 
+lā du mā s <- lā       : 
+lā du na` s <- lā       : 
+lā du nas s <- lā       : 
+lā du ra s <- lā       : 
+lā du wa s <- lā       : 
+lā du yaw s <- lā       : 
+lā du şi s <- lā       : 
+lā h 'an s <- lā       : 
+lā h 'ī s <- lā       : 
+lā h SIL s <- lā       : 
+lā h `a s <- lā       : 
+lā h ad- s <- lā       : 
+lā h ah s <- lā       : 
+lā h al s <- lā       : 
+lā h all s <- lā       : 
+lā h ar- s <- lā       : 
+lā h ađ- s <- lā       : 
+lā h aş- s <- lā       : 
+lā h bi s <- lā       : 
+lā h ghay s <- lā       : 
+lā h lil s <- lā       : 
+lā h lā s <- lā       : 
+lā h mā s <- lā       : 
+lā h na` s <- lā       : 
+lā h nas s <- lā       : 
+lā h ra s <- lā       : 
+lā h wa s <- lā       : 
+lā h yaw s <- lā       : 
+lā h şi s <- lā       : 
+lā hi 'an s <- lā       : 
+lā hi 'ī s <- lā       : 
+lā hi SIL s <- lā       : 
+lā hi `a s <- lā       : 
+lā hi ad- s <- lā       : 
+lā hi ah s <- lā       : 
+lā hi al s <- lā       : 
+lā hi all s <- lā       : 
+lā hi ar- s <- lā       : 
+lā hi ađ- s <- lā       : 
+lā hi aş- s <- lā       : 
+lā hi bi s <- lā       : 
+lā hi ghay s <- lā       : 
+lā hi lil s <- lā       : 
+lā hi lā s <- lā       : 
+lā hi mā s <- lā       : 
+lā hi na` s <- lā       : 
+lā hi nas s <- lā       : 
+lā hi ra s <- lā       : 
+lā hi wa s <- lā       : 
+lā hi yaw s <- lā       : 
+lā hi şi s <- lā       : 
+lā him 'an s <- lā       : 
+lā him 'ī s <- lā       : 
+lā him SIL s <- lā       : 
+lā him `a s <- lā       : 
+lā him ad- s <- lā       : 
+lā him ah s <- lā       : 
+lā him al s <- lā       : 
+lā him all s <- lā       : 
+lā him ar- s <- lā       : 
+lā him ađ- s <- lā       : 
+lā him aş- s <- lā       : 
+lā him bi s <- lā       : 
+lā him ghay s <- lā       : 
+lā him lil s <- lā       : 
+lā him lā s <- lā       : 
+lā him mā s <- lā       : 
+lā him na` s <- lā       : 
+lā him nas s <- lā       : 
+lā him ra s <- lā       : 
+lā him wa s <- lā       : 
+lā him yaw s <- lā       : 
+lā him şi s <- lā       : 
+lā ka 'an s <- lā       : 
+lā ka 'ī s <- lā       : 
+lā ka SIL s <- lā       : 
+lā ka `a s <- lā       : 
+lā ka ad- s <- lā       : 
+lā ka ah s <- lā       : 
+lā ka al s <- lā       : 
+lā ka all s <- lā       : 
+lā ka ar- s <- lā       : 
+lā ka ađ- s <- lā       : 
+lā ka aş- s <- lā       : 
+lā ka bi s <- lā       : 
+lā ka ghay s <- lā       : 
+lā ka lil s <- lā       : 
+lā ka lā s <- lā       : 
+lā ka mā s <- lā       : 
+lā ka na` s <- lā       : 
+lā ka nas s <- lā       : 
+lā ka ra s <- lā       : 
+lā ka wa s <- lā       : 
+lā ka yaw s <- lā       : 
+lā ka şi s <- lā       : 
+lā ki 'an s <- lā       : 
+lā ki 'ī s <- lā       : 
+lā ki SIL s <- lā       : 
+lā ki `a s <- lā       : 
+lā ki ad- s <- lā       : 
+lā ki ah s <- lā       : 
+lā ki al s <- lā       : 
+lā ki all s <- lā       : 
+lā ki ar- s <- lā       : 
+lā ki ađ- s <- lā       : 
+lā ki aş- s <- lā       : 
+lā ki bi s <- lā       : 
+lā ki ghay s <- lā       : 
+lā ki lil s <- lā       : 
+lā ki lā s <- lā       : 
+lā ki mā s <- lā       : 
+lā ki na` s <- lā       : 
+lā ki nas s <- lā       : 
+lā ki ra s <- lā       : 
+lā ki wa s <- lā       : 
+lā ki yaw s <- lā       : 
+lā ki şi s <- lā       : 
+lā lil h i <- lā       : [mx   288(0) +=    96] [mg   288(0) <-    96] [mx   291(1) +=    97] [mg   291(1) <-    97] [mx   292(2) +=    98] [mg   292(2) <-    98] 
+lā llīna 'an s <- lā       : 
+lā llīna 'ī s <- lā       : 
+lā llīna SIL s <- lā       : 
+lā llīna `a s <- lā       : 
+lā llīna ad- s <- lā       : 
+lā llīna ah s <- lā       : 
+lā llīna al s <- lā       : 
+lā llīna all s <- lā       : 
+lā llīna ar- s <- lā       : 
+lā llīna ađ- s <- lā       : 
+lā llīna aş- s <- lā       : 
+lā llīna bi s <- lā       : 
+lā llīna ghay s <- lā       : 
+lā llīna lil s <- lā       : 
+lā llīna lā s <- lā       : 
+lā llīna mā s <- lā       : 
+lā llīna na` s <- lā       : 
+lā llīna nas s <- lā       : 
+lā llīna ra s <- lā       : 
+lā llīna wa s <- lā       : 
+lā llīna yaw s <- lā       : 
+lā llīna şi s <- lā       : 
+lā lā 'an s <- lā       : 
+lā lā 'ī s <- lā       : 
+lā lā SIL s <- lā       : 
+lā lā `a s <- lā       : 
+lā lā ad- s <- lā       : 
+lā lā ah s <- lā       : 
+lā lā al s <- lā       : 
+lā lā all s <- lā       : 
+lā lā ar- s <- lā       : 
+lā lā ađ- s <- lā       : 
+lā lā aş- s <- lā       : 
+lā lā bi s <- lā       : 
+lā lā ghay s <- lā       : 
+lā lā lil s <- lā       : 
+lā lā lā s <- lā       : 
+lā lā mā s <- lā       : 
+lā lā na` s <- lā       : 
+lā lā nas s <- lā       : 
+lā lā ra s <- lā       : 
+lā lā wa s <- lā       : 
+lā lā yaw s <- lā       : 
+lā lā şi s <- lā       : 
+lā ma 'an s <- lā       : 
+lā ma 'ī s <- lā       : 
+lā ma SIL s <- lā       : 
+lā ma `a s <- lā       : 
+lā ma ad- s <- lā       : 
+lā ma ah s <- lā       : 
+lā ma al s <- lā       : 
+lā ma all s <- lā       : 
+lā ma ar- s <- lā       : 
+lā ma ađ- s <- lā       : 
+lā ma aş- s <- lā       : 
+lā ma bi s <- lā       : 
+lā ma ghay s <- lā       : 
+lā ma lil s <- lā       : 
+lā ma lā s <- lā       : 
+lā ma mā s <- lā       : 
+lā ma na` s <- lā       : 
+lā ma nas s <- lā       : 
+lā ma ra s <- lā       : 
+lā ma wa s <- lā       : 
+lā ma yaw s <- lā       : 
+lā ma şi s <- lā       : 
+lā mi 'an s <- lā       : 
+lā mi 'ī s <- lā       : 
+lā mi SIL s <- lā       : 
+lā mi `a s <- lā       : 
+lā mi ad- s <- lā       : 
+lā mi ah s <- lā       : 
+lā mi al s <- lā       : 
+lā mi all s <- lā       : 
+lā mi ar- s <- lā       : 
+lā mi ađ- s <- lā       : 
+lā mi aş- s <- lā       : 
+lā mi bi s <- lā       : 
+lā mi ghay s <- lā       : 
+lā mi lil s <- lā       : 
+lā mi lā s <- lā       : 
+lā mi mā s <- lā       : 
+lā mi na` s <- lā       : 
+lā mi nas s <- lā       : 
+lā mi ra s <- lā       : 
+lā mi wa s <- lā       : 
+lā mi yaw s <- lā       : 
+lā mi şi s <- lā       : 
+lā na 'an s <- lā       : 
+lā na 'ī s <- lā       : 
+lā na SIL s <- lā       : 
+lā na `a s <- lā       : 
+lā na ad- s <- lā       : 
+lā na ah s <- lā       : 
+lā na al s <- lā       : 
+lā na all s <- lā       : 
+lā na ar- s <- lā       : 
+lā na ađ- s <- lā       : 
+lā na aş- s <- lā       : 
+lā na bi s <- lā       : 
+lā na ghay s <- lā       : 
+lā na lil s <- lā       : 
+lā na lā s <- lā       : 
+lā na mā s <- lā       : 
+lā na na` s <- lā       : 
+lā na nas s <- lā       : 
+lā na ra s <- lā       : 
+lā na wa s <- lā       : 
+lā na yaw s <- lā       : 
+lā na şi s <- lā       : 
+lā ni 'an s <- lā       : 
+lā ni 'ī s <- lā       : 
+lā ni SIL s <- lā       : 
+lā ni `a s <- lā       : 
+lā ni ad- s <- lā       : 
+lā ni ah s <- lā       : 
+lā ni al s <- lā       : 
+lā ni all s <- lā       : 
+lā ni ar- s <- lā       : 
+lā ni ađ- s <- lā       : 
+lā ni aş- s <- lā       : 
+lā ni bi s <- lā       : 
+lā ni ghay s <- lā       : 
+lā ni lil s <- lā       : 
+lā ni lā s <- lā       : 
+lā ni mā s <- lā       : 
+lā ni na` s <- lā       : 
+lā ni nas s <- lā       : 
+lā ni ra s <- lā       : 
+lā ni wa s <- lā       : 
+lā ni yaw s <- lā       : 
+lā ni şi s <- lā       : 
+lā nu 'an s <- lā       : 
+lā nu 'ī s <- lā       : 
+lā nu SIL s <- lā       : 
+lā nu `a s <- lā       : 
+lā nu ad- s <- lā       : 
+lā nu ah s <- lā       : 
+lā nu al s <- lā       : 
+lā nu all s <- lā       : 
+lā nu ar- s <- lā       : 
+lā nu ađ- s <- lā       : 
+lā nu aş- s <- lā       : 
+lā nu bi s <- lā       : 
+lā nu ghay s <- lā       : 
+lā nu lil s <- lā       : 
+lā nu lā s <- lā       : 
+lā nu mā s <- lā       : 
+lā nu na` s <- lā       : 
+lā nu nas s <- lā       : 
+lā nu ra s <- lā       : 
+lā nu wa s <- lā       : 
+lā nu yaw s <- lā       : 
+lā nu şi s <- lā       : 
+lā nā 'an s <- lā       : 
+lā nā 'ī s <- lā       : 
+lā nā SIL s <- lā       : 
+lā nā `a s <- lā       : 
+lā nā ad- s <- lā       : 
+lā nā ah s <- lā       : 
+lā nā al s <- lā       : 
+lā nā all s <- lā       : 
+lā nā ar- s <- lā       : 
+lā nā ađ- s <- lā       : 
+lā nā aş- s <- lā       : 
+lā nā bi s <- lā       : 
+lā nā ghay s <- lā       : 
+lā nā lil s <- lā       : 
+lā nā lā s <- lā       : 
+lā nā mā s <- lā       : 
+lā nā na` s <- lā       : 
+lā nā nas s <- lā       : 
+lā nā ra s <- lā       : 
+lā nā wa s <- lā       : 
+lā nā yaw s <- lā       : 
+lā nā şi s <- lā       : 
+lā ri 'an s <- lā       : 
+lā ri 'ī s <- lā       : 
+lā ri SIL s <- lā       : 
+lā ri `a s <- lā       : 
+lā ri ad- s <- lā       : 
+lā ri ah s <- lā       : 
+lā ri al s <- lā       : 
+lā ri all s <- lā       : 
+lā ri ar- s <- lā       : 
+lā ri ađ- s <- lā       : 
+lā ri aş- s <- lā       : 
+lā ri bi s <- lā       : 
+lā ri ghay s <- lā       : 
+lā ri lil s <- lā       : 
+lā ri lā s <- lā       : 
+lā ri mā s <- lā       : 
+lā ri na` s <- lā       : 
+lā ri nas s <- lā       : 
+lā ri ra s <- lā       : 
+lā ri wa s <- lā       : 
+lā ri yaw s <- lā       : 
+lā ri şi s <- lā       : 
+lā ta 'an s <- lā       : 
+lā ta 'ī s <- lā       : 
+lā ta SIL s <- lā       : 
+lā ta `a s <- lā       : 
+lā ta ad- s <- lā       : 
+lā ta ah s <- lā       : 
+lā ta al s <- lā       : 
+lā ta all s <- lā       : 
+lā ta ar- s <- lā       : 
+lā ta ađ- s <- lā       : 
+lā ta aş- s <- lā       : 
+lā ta bi s <- lā       : 
+lā ta ghay s <- lā       : 
+lā ta lil s <- lā       : 
+lā ta lā s <- lā       : 
+lā ta mā s <- lā       : 
+lā ta na` s <- lā       : 
+lā ta nas s <- lā       : 
+lā ta ra s <- lā       : 
+lā ta wa s <- lā       : 
+lā ta yaw s <- lā       : 
+lā ta şi s <- lā       : 
+lā wa 'an s <- lā       : 
+lā wa 'ī s <- lā       : 
+lā wa SIL s <- lā       : 
+lā wa `a s <- lā       : 
+lā wa ad- s <- lā       : 
+lā wa ah s <- lā       : 
+lā wa al s <- lā       : 
+lā wa all s <- lā       : 
+lā wa ar- s <- lā       : 
+lā wa ađ- s <- lā       : 
+lā wa aş- s <- lā       : 
+lā wa bi s <- lā       : 
+lā wa ghay s <- lā       : 
+lā wa lil s <- lā       : 
+lā wa lā s <- lā       : 
+lā wa mā s <- lā       : 
+lā wa na` s <- lā       : 
+lā wa nas s <- lā       : 
+lā wa ra s <- lā       : 
+lā wa wa s <- lā       : 
+lā wa yaw s <- lā       : 
+lā wa şi s <- lā       : 
+lā ţa 'an s <- lā       : 
+lā ţa 'ī s <- lā       : 
+lā ţa SIL s <- lā       : 
+lā ţa `a s <- lā       : 
+lā ţa ad- s <- lā       : 
+lā ţa ah s <- lā       : 
+lā ţa al s <- lā       : 
+lā ţa all s <- lā       : 
+lā ţa ar- s <- lā       : 
+lā ţa ađ- s <- lā       : 
+lā ţa aş- s <- lā       : 
+lā ţa bi s <- lā       : 
+lā ţa ghay s <- lā       : 
+lā ţa lil s <- lā       : 
+lā ţa lā s <- lā       : 
+lā ţa mā s <- lā       : 
+lā ţa na` s <- lā       : 
+lā ţa nas s <- lā       : 
+lā ţa ra s <- lā       : 
+lā ţa wa s <- lā       : 
+lā ţa yaw s <- lā       : 
+lā ţa şi s <- lā       : 
+ma qī 'an e <- ma        : [mx   294(0) +=    99] [mg   294(0) <-    99] [mx   295(1) +=   100] [mg   295(1) <-   100] [mx   296(2) +=   101] [mg   296(2) <-   101] 
+ma qī 'ī e <- ma        : 
+ma qī SIL e <- ma        : 
+ma qī `a e <- ma        : 
+ma qī ad- e <- ma        : 
+ma qī ah e <- ma        : 
+ma qī al e <- ma        : 
+ma qī all e <- ma        : 
+ma qī ar- e <- ma        : 
+ma qī ađ- e <- ma        : 
+ma qī aş- e <- ma        : 
+ma qī bi e <- ma        : 
+ma qī ghay e <- ma        : 
+ma qī lil e <- ma        : 
+ma qī lā e <- ma        : 
+ma qī mā e <- ma        : 
+ma qī na` e <- ma        : 
+ma qī nas e <- ma        : 
+ma qī ra e <- ma        : 
+ma qī wa e <- ma        : 
+ma qī yaw e <- ma        : 
+ma qī şi e <- ma        : 
+magh al đū i <- magh      : [mx   297(0) +=   102] [mg   297(0) <-   102] [mx   298(1) +=   103] [mg   298(1) <-   103] [mx   299(2) +=   104] [mg   299(2) <-   104] 
+mi s 'an e <- mi        : [mx   300(0) +=   105] [mg   300(0) <-   105] [mx   301(1) +=   106] [mg   301(1) <-   106] [mx   303(2) +=   107] [mg   303(2) <-   107] 
+mi s 'ī e <- mi        : [mx   302(2) +=   107] [mg   302(2) <-   107] 
+mi s SIL e <- mi        : 
+ mi s `a e <- mi        : 
+mi s ad- e <- mi        : 
+ mi s ah e <- mi        : 
+ mi s al e <- mi        : 
+mi s all e <- mi        : 
+mi s ar- e <- mi        : 
+mi s ađ- e <- mi        : 
+mi s aş- e <- mi        : 
+ mi s bi e <- mi        : 
+mi s ghay e <- mi        : 
+mi s lil e <- mi        : 
+mi s lā e <- mi        : 
+mi s mā e <- mi        : 
+mi s na` e <- mi        : 
+mi s nas e <- mi        : 
+ mi s ra e <- mi        : 
+ mi s wa e <- mi        : 
+mi s yaw e <- mi        : 
+mi s şi e <- mi        : 
+mi yaw 'an e <- mi        : 
+mi yaw 'ī e <- mi        : 
+mi yaw SIL e <- mi        : 
+mi yaw `a e <- mi        : 
+mi yaw ad- e <- mi        : 
+mi yaw ah e <- mi        : 
+mi yaw al e <- mi        : 
+mi yaw all e <- mi        : 
+mi yaw ar- e <- mi        : 
+mi yaw ađ- e <- mi        : 
+mi yaw aş- e <- mi        : 
+mi yaw bi e <- mi        : 
+mi yaw ghay e <- mi        : 
+mi yaw lil e <- mi        : 
+mi yaw lā e <- mi        : 
+mi yaw mā e <- mi        : 
+mi yaw na` e <- mi        : 
+mi yaw nas e <- mi        : 
+mi yaw ra e <- mi        : 
+mi yaw wa e <- mi        : 
+mi yaw yaw e <- mi        : 
+mi yaw şi e <- mi        : 
+mi ĥī 'an e <- mi        : 
+mi ĥī 'ī e <- mi        : 
+mi ĥī SIL e <- mi        : 
+mi ĥī `a e <- mi        : 
+mi ĥī ad- e <- mi        : 
+mi ĥī ah e <- mi        : 
+mi ĥī al e <- mi        : 
+mi ĥī all e <- mi        : 
+mi ĥī ar- e <- mi        : 
+mi ĥī ađ- e <- mi        : 
+mi ĥī aş- e <- mi        : 
+mi ĥī bi e <- mi        : 
+mi ĥī ghay e <- mi        : 
+mi ĥī lil e <- mi        : 
+mi ĥī lā e <- mi        : 
+mi ĥī mā e <- mi        : 
+mi ĥī na` e <- mi        : 
+mi ĥī nas e <- mi        : 
+mi ĥī ra e <- mi        : 
+mi ĥī wa e <- mi        : 
+mi ĥī yaw e <- mi        : 
+mi ĥī şi e <- mi        : 
+mus al ta i <- mus       : [mx   304(0) +=   108] [mg   304(0) <-   108] [mx   305(1) +=   109] [mg   305(1) <-   109] [mx   306(2) +=   110] [mg   306(2) <-   110] 
+mā SIL li b <- mā       : [mx   307(0) +=   111] [mg   307(0) <-   111] [mx   308(1) +=   112] [mg   308(1) <-   112] [mx   309(2) +=   113] [mg   309(2) <-   113] 
+mā bbi li b <- mā       : 
+mā bi li b <- mā       : 
+mā du li b <- mā       : 
+mā h li b <- mā       : 
+mā hi li b <- mā       : 
+mā him li b <- mā       : 
+mā ka li b <- mā       : 
+mā ki li b <- mā       : 
+mā llīna li b <- mā       : 
+mā lā li b <- mā       : 
+mā ma li b <- mā       : 
+mā mi li b <- mā       : 
+mā na li b <- mā       : 
+mā ni li b <- mā       : 
+mā nu li b <- mā       : 
+mā nā li b <- mā       : 
+mā ri li b <- mā       : 
+mā ta li b <- mā       : 
+mā wa li b <- mā       : 
+mā ĥ ni i <- mā       : 
+mā ţa li b <- mā       : 
+mī la na i <- mī       : [mx   310(0) +=   114] [mg   310(0) <-   114] [mx   311(1) +=   115] [mg   311(1) <-   115] [mx   312(2) +=   116] [mg   312(2) <-   116] 
+na dhī 'an e <- na        : [mx   313(0) +=   117] [mg   313(0) <-   117] [mx   315(1) +=   118] [mg   315(1) <-   118] [mx   316(2) +=   119] [mg   316(2) <-   119] 
+na dhī 'ī e <- na        : 
+na dhī SIL e <- na        : [mx   314(1) +=   118] [mg   314(1) <-   118] [mx   317(2) +=   119] [mg   317(2) <-   119] 
+na dhī `a e <- na        : 
+na dhī ad- e <- na        : 
+na dhī ah e <- na        : 
+na dhī al e <- na        : 
+na dhī all e <- na        : 
+na dhī ar- e <- na        : 
+na dhī ađ- e <- na        : 
+na dhī aş- e <- na        : 
+na dhī bi e <- na        : 
+na dhī ghay e <- na        : 
+na dhī lil e <- na        : 
+na dhī lā e <- na        : 
+na dhī mā e <- na        : 
+na dhī na` e <- na        : 
+na dhī nas e <- na        : 
+na dhī ra e <- na        : 
+na dhī wa e <- na        : 
+na dhī yaw e <- na        : 
+na dhī şi e <- na        : 
+na mī 'an e <- na        : 
+na mī 'ī e <- na        : 
+na mī SIL e <- na        : 
+na mī `a e <- na        : 
+na mī ad- e <- na        : 
+na mī ah e <- na        : 
+na mī al e <- na        : 
+na mī all e <- na        : 
+na mī ar- e <- na        : 
+na mī ađ- e <- na        : 
+na mī aş- e <- na        : 
+na mī bi e <- na        : 
+na mī ghay e <- na        : 
+na mī lil e <- na        : 
+na mī lā e <- na        : 
+na mī mā e <- na        : 
+na mī na` e <- na        : 
+na mī nas e <- na        : 
+na mī ra e <- na        : 
+na mī wa e <- na        : 
+na mī yaw e <- na        : 
+na mī şi e <- na        : 
+na` SIL bu b <- na`       : [mx   318(0) +=   120] [mg   318(0) <-   120] [mx   319(1) +=   121] [mg   319(1) <-   121] [mx   320(2) +=   122] [mg   320(2) <-   122] 
+na` bbi bu b <- na`       : 
+na` bi bu b <- na`       : 
+na` du bu b <- na`       : 
+na` h bu b <- na`       : 
+na` hi bu b <- na`       : 
+na` him bu b <- na`       : 
+na` ka bu b <- na`       : 
+na` ki bu b <- na`       : 
+na` llīna bu b <- na`       : 
+na` lā bu b <- na`       : 
+na` ma bu b <- na`       : 
+na` mi bu b <- na`       : 
+na` na bu b <- na`       : 
+na` ni bu b <- na`       : 
+na` nu bu b <- na`       : 
+na` nā bu b <- na`       : 
+na` ri bu b <- na`       : 
+na` ta bu b <- na`       : 
+na` wa bu b <- na`       : 
+na` ţa bu b <- na`       : 
+nas SIL ta b <- nas       : [mx   321(0) +=   123] [mg   321(0) <-   123] [mx   322(1) +=   124] [mg   322(1) <-   124] [mx   323(2) +=   125] [mg   323(2) <-   125] 
+nas bbi ta b <- nas       : 
+nas bi ta b <- nas       : 
+nas du ta b <- nas       : 
+nas h ta b <- nas       : 
+nas hi ta b <- nas       : 
+nas him ta b <- nas       : 
+nas ka ta b <- nas       : 
+nas ki ta b <- nas       : 
+nas llīna ta b <- nas       : 
+nas lā ta b <- nas       : 
+nas ma ta b <- nas       : 
+nas mi ta b <- nas       : 
+nas na ta b <- nas       : 
+nas ni ta b <- nas       : 
+nas nu ta b <- nas       : 
+nas nā ta b <- nas       : 
+nas ri ta b <- nas       : 
+nas ta ta b <- nas       : 
+nas wa ta b <- nas       : 
+nas ţa ta b <- nas       : 
+ni dī 'an e <- ni        : [mx   324(0) +=   126] [mg   324(0) <-   126] [mx   325(1) +=   127] [mg   325(1) <-   127] [mx   326(2) +=   128] [mg   326(2) <-   128] 
+ni dī 'ī e <- ni        : 
+ni dī SIL e <- ni        : 
+ni dī `a e <- ni        : 
+ni dī ad- e <- ni        : 
+ni dī ah e <- ni        : 
+ni dī al e <- ni        : 
+ni dī all e <- ni        : 
+ni dī ar- e <- ni        : 
+ni dī ađ- e <- ni        : 
+ni dī aş- e <- ni        : 
+ni dī bi e <- ni        : 
+ni dī ghay e <- ni        : 
+ni dī lil e <- ni        : 
+ni dī lā e <- ni        : 
+ni dī mā e <- ni        : 
+ni dī na` e <- ni        : 
+ni dī nas e <- ni        : 
+ni dī ra e <- ni        : 
+ni dī wa e <- ni        : 
+ni dī yaw e <- ni        : 
+ni dī şi e <- ni        : 
+ni mā 'an e <- ni        : 
+ni mā 'ī e <- ni        : 
+ni mā SIL e <- ni        : 
+ni mā `a e <- ni        : 
+ni mā ad- e <- ni        : 
+ni mā ah e <- ni        : 
+ni mā al e <- ni        : 
+ni mā all e <- ni        : 
+ni mā ar- e <- ni        : 
+ni mā ađ- e <- ni        : 
+ni mā aş- e <- ni        : 
+ni mā bi e <- ni        : 
+ni mā ghay e <- ni        : 
+ni mā lil e <- ni        : 
+ni mā lā e <- ni        : 
+ni mā mā e <- ni        : 
+ni mā na` e <- ni        : 
+ni mā nas e <- ni        : 
+ni mā ra e <- ni        : 
+ni mā wa e <- ni        : 
+ni mā yaw e <- ni        : 
+ni mā şi e <- ni        : 
+nu `ī 'an e <- nu        : [mx   327(0) +=   129] [mg   327(0) <-   129] [mx   328(1) +=   130] [mg   328(1) <-   130] [mx   329(2) +=   131] [mg   329(2) <-   131] 
+nu `ī 'ī e <- nu        : 
+nu `ī SIL e <- nu        : 
+nu `ī `a e <- nu        : 
+nu `ī ad- e <- nu        : 
+nu `ī ah e <- nu        : 
+nu `ī al e <- nu        : 
+nu `ī all e <- nu        : 
+nu `ī ar- e <- nu        : 
+nu `ī ađ- e <- nu        : 
+nu `ī aş- e <- nu        : 
+nu `ī bi e <- nu        : 
+nu `ī ghay e <- nu        : 
+nu `ī lil e <- nu        : 
+nu `ī lā e <- nu        : 
+nu `ī mā e <- nu        : 
+nu `ī na` e <- nu        : 
+nu `ī nas e <- nu        : 
+nu `ī ra e <- nu        : 
+nu `ī wa e <- nu        : 
+nu `ī yaw e <- nu        : 
+nu `ī şi e <- nu        : 
+nā di 'an e <- nā       : [mx   330(0) +=   132] [mg   330(0) <-   132] [mx   331(1) +=   133] [mg   331(1) <-   133] [mx   332(2) +=   134] [mg   332(2) <-   134] 
+nā di 'ī e <- nā       : 
+nā di SIL e <- nā       : 
+nā di `a e <- nā       : 
+nā di ad- e <- nā       : 
+nā di ah e <- nā       : 
+nā di al e <- nā       : 
+nā di all e <- nā       : 
+nā di ar- e <- nā       : 
+nā di ađ- e <- nā       : 
+nā di aş- e <- nā       : 
+nā di bi e <- nā       : 
+nā di ghay e <- nā       : 
+nā di lil e <- nā       : 
+nā di lā e <- nā       : 
+nā di mā e <- nā       : 
+nā di na` e <- nā       : 
+nā di nas e <- nā       : 
+nā di ra e <- nā       : 
+nā di wa e <- nā       : 
+nā di yaw e <- nā       : 
+nā di şi e <- nā       : 
+qī ta ma i <- qī       : [mx   333(0) +=   135] [mg   333(0) <-   135] [mx   334(1) +=   136] [mg   334(1) <-   136] [mx   335(2) +=   137] [mg   335(2) <-   137] 
+ra SIL bbi b <- ra        : [mx   336(0) +=   138] [mg   336(0) <-   138] [mx   337(1) +=   139] [mg   337(1) <-   139] [mx   338(2) +=   140] [mg   338(2) <-   140] 
+ra ar- ĥ i <- ra        : 
+ra ar- ĥī i <- ra        : 
+ra bbi bbi b <- ra        : 
+ra bi bbi b <- ra        : 
+ra du bbi b <- ra        : 
+ra h bbi b <- ra        : 
+ra hi bbi b <- ra        : 
+ra him bbi b <- ra        : 
+ra ka bbi b <- ra        : 
+ra ki bbi b <- ra        : 
+ra llīna bbi b <- ra        : 
+ra lā bbi b <- ra        : 
+ra ma bbi b <- ra        : 
+ra mi bbi b <- ra        : 
+ra na bbi b <- ra        : 
+ra ni bbi b <- ra        : 
+ra nu bbi b <- ra        : 
+ra nā bbi b <- ra        : 
+ra ri bbi b <- ra        : 
+ra ta bbi b <- ra        : 
+ra wa bbi b <- ra        : 
+ra ţa bbi b <- ra        : 
+ri ghay 'an e <- ri        : [mx   339(0) +=   141] [mg   339(0) <-   141] [mx   340(1) +=   142] [mg   340(1) <-   142] [mx   341(2) +=   143] [mg   341(2) <-   143] 
+ri ghay 'ī e <- ri        : 
+ri ghay SIL e <- ri        : 
+ri ghay `a e <- ri        : 
+ri ghay ad- e <- ri        : 
+ri ghay ah e <- ri        : 
+ri ghay al e <- ri        : 
+ri ghay all e <- ri        : 
+ri ghay ar- e <- ri        : 
+ri ghay ađ- e <- ri        : 
+ri ghay aş- e <- ri        : 
+ri ghay bi e <- ri        : 
+ri ghay ghay e <- ri        : 
+ri ghay lil e <- ri        : 
+ri ghay lā e <- ri        : 
+ri ghay mā e <- ri        : 
+ri ghay na` e <- ri        : 
+ri ghay nas e <- ri        : 
+ri ghay ra e <- ri        : 
+ri ghay wa e <- ri        : 
+ri ghay yaw e <- ri        : 
+ri ghay şi e <- ri        : 
+rā şi ţa i <- rā       : [mx   342(0) +=   144] [mg   342(0) <-   144] [mx   343(1) +=   145] [mg   343(1) <-   145] [mx   344(2) +=   146] [mg   344(2) <-   146] 
+ s bi mi i <- s         : [mx   345(0) +=   147] [mg   345(0) <-   147] [mx   346(1) +=   148] [mg   346(1) <-   148] [mx   347(2) +=   149] [mg   347(2) <-   149] 
+ta `am 'an e <- ta        : [mx   348(0) +=   150] [mg   348(0) <-   150] [mx   350(1) +=   151] [mg   350(1) <-   151] [mx   351(2) +=   152] [mg   351(2) <-   152] 
+ta `am 'ī e <- ta        : [mx   349(0) +=   150] [mg   349(0) <-   150] 
+ta `am SIL e <- ta        : 
+ta `am `a e <- ta        : 
+ta `am ad- e <- ta        : 
+ta `am ah e <- ta        : 
+ta `am al e <- ta        : 
+ta `am all e <- ta        : 
+ta `am ar- e <- ta        : 
+ta `am ađ- e <- ta        : 
+ta `am aş- e <- ta        : 
+ta `am bi e <- ta        : 
+ta `am ghay e <- ta        : 
+ta `am lil e <- ta        : 
+ta `am lā e <- ta        : 
+ta `am mā e <- ta        : 
+ta `am na` e <- ta        : 
+ta `am nas e <- ta        : 
+ta `am ra e <- ta        : 
+ta `am wa e <- ta        : 
+ta `am yaw e <- ta        : 
+ta `am şi e <- ta        : 
+ta mus qī i <- ta        : 
+ta nas `ī i <- ta        : 
+wa SIL 'an s <- wa        : [mx   352(0) +=   153] [mg   352(0) <-   153] [mx   353(1) +=   154] [mg   353(1) <-   154] [mx   354(2) +=   155] [mg   354(2) <-   155] 
+wa SIL 'ī s <- wa        : 
+wa SIL SIL s <- wa        : 
+wa SIL `a s <- wa        : 
+wa SIL ad- s <- wa        : 
+wa SIL ah s <- wa        : 
+wa SIL al s <- wa        : 
+wa SIL all s <- wa        : 
+wa SIL ar- s <- wa        : 
+wa SIL ađ- s <- wa        : 
+wa SIL aş- s <- wa        : 
+wa SIL bi s <- wa        : 
+wa SIL ghay s <- wa        : 
+wa SIL lil s <- wa        : 
+wa SIL lā s <- wa        : 
+wa SIL mā s <- wa        : 
+wa SIL na` s <- wa        : 
+wa SIL nas s <- wa        : 
+wa SIL ra s <- wa        : 
+wa SIL wa s <- wa        : 
+wa SIL yaw s <- wa        : 
+wa SIL şi s <- wa        : 
+wa bbi 'an s <- wa        : 
+wa bbi 'ī s <- wa        : 
+wa bbi SIL s <- wa        : 
+wa bbi `a s <- wa        : 
+wa bbi ad- s <- wa        : 
+wa bbi ah s <- wa        : 
+wa bbi al s <- wa        : 
+wa bbi all s <- wa        : 
+wa bbi ar- s <- wa        : 
+wa bbi ađ- s <- wa        : 
+wa bbi aş- s <- wa        : 
+wa bbi bi s <- wa        : 
+wa bbi ghay s <- wa        : 
+wa bbi lil s <- wa        : 
+wa bbi lā s <- wa        : 
+wa bbi mā s <- wa        : 
+wa bbi na` s <- wa        : 
+wa bbi nas s <- wa        : 
+wa bbi ra s <- wa        : 
+wa bbi wa s <- wa        : 
+wa bbi yaw s <- wa        : 
+wa bbi şi s <- wa        : 
+wa bi 'an s <- wa        : 
+wa bi 'ī s <- wa        : 
+wa bi SIL s <- wa        : 
+wa bi `a s <- wa        : 
+wa bi ad- s <- wa        : 
+wa bi ah s <- wa        : 
+wa bi al s <- wa        : 
+wa bi all s <- wa        : 
+wa bi ar- s <- wa        : 
+wa bi ađ- s <- wa        : 
+wa bi aş- s <- wa        : 
+wa bi bi s <- wa        : 
+wa bi ghay s <- wa        : 
+wa bi lil s <- wa        : 
+wa bi lā s <- wa        : 
+wa bi mā s <- wa        : 
+wa bi na` s <- wa        : 
+wa bi nas s <- wa        : 
+wa bi ra s <- wa        : 
+wa bi wa s <- wa        : 
+wa bi yaw s <- wa        : 
+wa bi şi s <- wa        : 
+wa du 'an s <- wa        : 
+wa du 'ī s <- wa        : 
+wa du SIL s <- wa        : 
+wa du `a s <- wa        : 
+wa du ad- s <- wa        : 
+wa du ah s <- wa        : 
+wa du al s <- wa        : 
+wa du all s <- wa        : 
+wa du ar- s <- wa        : 
+wa du ađ- s <- wa        : 
+wa du aş- s <- wa        : 
+wa du bi s <- wa        : 
+wa du ghay s <- wa        : 
+wa du lil s <- wa        : 
+wa du lā s <- wa        : 
+wa du mā s <- wa        : 
+wa du na` s <- wa        : 
+wa du nas s <- wa        : 
+wa du ra s <- wa        : 
+wa du wa s <- wa        : 
+wa du yaw s <- wa        : 
+wa du şi s <- wa        : 
+wa h 'an s <- wa        : 
+wa h 'ī s <- wa        : 
+wa h SIL s <- wa        : 
+ wa h `a s <- wa        : 
+wa h ad- s <- wa        : 
+ wa h ah s <- wa        : 
+ wa h al s <- wa        : 
+wa h all s <- wa        : 
+wa h ar- s <- wa        : 
+wa h ađ- s <- wa        : 
+wa h aş- s <- wa        : 
+ wa h bi s <- wa        : 
+wa h ghay s <- wa        : 
+wa h lil s <- wa        : 
+wa h lā s <- wa        : 
+wa h mā s <- wa        : 
+wa h na` s <- wa        : 
+wa h nas s <- wa        : 
+ wa h ra s <- wa        : 
+ wa h wa s <- wa        : 
+wa h yaw s <- wa        : 
+wa h şi s <- wa        : 
+wa hi 'an s <- wa        : 
+wa hi 'ī s <- wa        : 
+wa hi SIL s <- wa        : 
+wa hi `a s <- wa        : 
+wa hi ad- s <- wa        : 
+wa hi ah s <- wa        : 
+wa hi al s <- wa        : 
+wa hi all s <- wa        : 
+wa hi ar- s <- wa        : 
+wa hi ađ- s <- wa        : 
+wa hi aş- s <- wa        : 
+wa hi bi s <- wa        : 
+wa hi ghay s <- wa        : 
+wa hi lil s <- wa        : 
+wa hi lā s <- wa        : 
+wa hi mā s <- wa        : 
+wa hi na` s <- wa        : 
+wa hi nas s <- wa        : 
+wa hi ra s <- wa        : 
+wa hi wa s <- wa        : 
+wa hi yaw s <- wa        : 
+wa hi şi s <- wa        : 
+wa him 'an s <- wa        : 
+wa him 'ī s <- wa        : 
+wa him SIL s <- wa        : 
+wa him `a s <- wa        : 
+wa him ad- s <- wa        : 
+wa him ah s <- wa        : 
+wa him al s <- wa        : 
+wa him all s <- wa        : 
+wa him ar- s <- wa        : 
+wa him ađ- s <- wa        : 
+wa him aş- s <- wa        : 
+wa him bi s <- wa        : 
+wa him ghay s <- wa        : 
+wa him lil s <- wa        : 
+wa him lā s <- wa        : 
+wa him mā s <- wa        : 
+wa him na` s <- wa        : 
+wa him nas s <- wa        : 
+wa him ra s <- wa        : 
+wa him wa s <- wa        : 
+wa him yaw s <- wa        : 
+wa him şi s <- wa        : 
+wa ka 'an s <- wa        : 
+wa ka 'ī s <- wa        : 
+wa ka SIL s <- wa        : 
+wa ka `a s <- wa        : 
+wa ka ad- s <- wa        : 
+wa ka ah s <- wa        : 
+wa ka al s <- wa        : 
+wa ka all s <- wa        : 
+wa ka ar- s <- wa        : 
+wa ka ađ- s <- wa        : 
+wa ka aş- s <- wa        : 
+wa ka bi s <- wa        : 
+wa ka ghay s <- wa        : 
+wa ka lil s <- wa        : 
+wa ka lā s <- wa        : 
+wa ka mā s <- wa        : 
+wa ka na` s <- wa        : 
+wa ka nas s <- wa        : 
+wa ka ra s <- wa        : 
+wa ka wa s <- wa        : 
+wa ka yaw s <- wa        : 
+wa ka şi s <- wa        : 
+wa ki 'an s <- wa        : 
+wa ki 'ī s <- wa        : 
+wa ki SIL s <- wa        : 
+wa ki `a s <- wa        : 
+wa ki ad- s <- wa        : 
+wa ki ah s <- wa        : 
+wa ki al s <- wa        : 
+wa ki all s <- wa        : 
+wa ki ar- s <- wa        : 
+wa ki ađ- s <- wa        : 
+wa ki aş- s <- wa        : 
+wa ki bi s <- wa        : 
+wa ki ghay s <- wa        : 
+wa ki lil s <- wa        : 
+wa ki lā s <- wa        : 
+wa ki mā s <- wa        : 
+wa ki na` s <- wa        : 
+wa ki nas s <- wa        : 
+wa ki ra s <- wa        : 
+wa ki wa s <- wa        : 
+wa ki yaw s <- wa        : 
+wa ki şi s <- wa        : 
+wa llīna 'an s <- wa        : 
+wa llīna 'ī s <- wa        : 
+wa llīna SIL s <- wa        : 
+wa llīna `a s <- wa        : 
+wa llīna ad- s <- wa        : 
+wa llīna ah s <- wa        : 
+wa llīna al s <- wa        : 
+wa llīna all s <- wa        : 
+wa llīna ar- s <- wa        : 
+wa llīna ađ- s <- wa        : 
+wa llīna aş- s <- wa        : 
+wa llīna bi s <- wa        : 
+wa llīna ghay s <- wa        : 
+wa llīna lil s <- wa        : 
+wa llīna lā s <- wa        : 
+wa llīna mā s <- wa        : 
+wa llīna na` s <- wa        : 
+wa llīna nas s <- wa        : 
+wa llīna ra s <- wa        : 
+wa llīna wa s <- wa        : 
+wa llīna yaw s <- wa        : 
+wa llīna şi s <- wa        : 
+wa lā 'an s <- wa        : 
+wa lā 'ī s <- wa        : 
+wa lā SIL s <- wa        : 
+wa lā `a s <- wa        : 
+wa lā ad- s <- wa        : 
+wa lā ah s <- wa        : 
+wa lā al s <- wa        : 
+wa lā all s <- wa        : 
+wa lā ar- s <- wa        : 
+wa lā ađ- s <- wa        : 
+wa lā aş- s <- wa        : 
+wa lā bi s <- wa        : 
+wa lā ghay s <- wa        : 
+wa lā lil s <- wa        : 
+wa lā lā s <- wa        : 
+wa lā mā s <- wa        : 
+wa lā na` s <- wa        : 
+wa lā nas s <- wa        : 
+wa lā ra s <- wa        : 
+wa lā wa s <- wa        : 
+wa lā yaw s <- wa        : 
+wa lā şi s <- wa        : 
+wa ma 'an s <- wa        : 
+wa ma 'ī s <- wa        : 
+wa ma SIL s <- wa        : 
+wa ma `a s <- wa        : 
+wa ma ad- s <- wa        : 
+wa ma ah s <- wa        : 
+wa ma al s <- wa        : 
+wa ma all s <- wa        : 
+wa ma ar- s <- wa        : 
+wa ma ađ- s <- wa        : 
+wa ma aş- s <- wa        : 
+wa ma bi s <- wa        : 
+wa ma ghay s <- wa        : 
+wa ma lil s <- wa        : 
+wa ma lā s <- wa        : 
+wa ma mā s <- wa        : 
+wa ma na` s <- wa        : 
+wa ma nas s <- wa        : 
+wa ma ra s <- wa        : 
+wa ma wa s <- wa        : 
+wa ma yaw s <- wa        : 
+wa ma şi s <- wa        : 
+wa mi 'an s <- wa        : 
+wa mi 'ī s <- wa        : 
+wa mi SIL s <- wa        : 
+wa mi `a s <- wa        : 
+wa mi ad- s <- wa        : 
+wa mi ah s <- wa        : 
+wa mi al s <- wa        : 
+wa mi all s <- wa        : 
+wa mi ar- s <- wa        : 
+wa mi ađ- s <- wa        : 
+wa mi aş- s <- wa        : 
+wa mi bi s <- wa        : 
+wa mi ghay s <- wa        : 
+wa mi lil s <- wa        : 
+wa mi lā s <- wa        : 
+wa mi mā s <- wa        : 
+wa mi na` s <- wa        : 
+wa mi nas s <- wa        : 
+wa mi ra s <- wa        : 
+wa mi wa s <- wa        : 
+wa mi yaw s <- wa        : 
+wa mi şi s <- wa        : 
+wa na 'an s <- wa        : 
+wa na 'ī s <- wa        : 
+wa na SIL s <- wa        : 
+wa na `a s <- wa        : 
+wa na ad- s <- wa        : 
+wa na ah s <- wa        : 
+wa na al s <- wa        : 
+wa na all s <- wa        : 
+wa na ar- s <- wa        : 
+wa na ađ- s <- wa        : 
+wa na aş- s <- wa        : 
+wa na bi s <- wa        : 
+wa na ghay s <- wa        : 
+wa na lil s <- wa        : 
+wa na lā s <- wa        : 
+wa na mā s <- wa        : 
+wa na na` s <- wa        : 
+wa na nas s <- wa        : 
+wa na ra s <- wa        : 
+wa na wa s <- wa        : 
+wa na yaw s <- wa        : 
+wa na şi s <- wa        : 
+wa ni 'an s <- wa        : 
+wa ni 'ī s <- wa        : 
+wa ni SIL s <- wa        : 
+wa ni `a s <- wa        : 
+wa ni ad- s <- wa        : 
+wa ni ah s <- wa        : 
+wa ni al s <- wa        : 
+wa ni all s <- wa        : 
+wa ni ar- s <- wa        : 
+wa ni ađ- s <- wa        : 
+wa ni aş- s <- wa        : 
+wa ni bi s <- wa        : 
+wa ni ghay s <- wa        : 
+wa ni lil s <- wa        : 
+wa ni lā s <- wa        : 
+wa ni mā s <- wa        : 
+wa ni na` s <- wa        : 
+wa ni nas s <- wa        : 
+wa ni ra s <- wa        : 
+wa ni wa s <- wa        : 
+wa ni yaw s <- wa        : 
+wa ni şi s <- wa        : 
+wa nu 'an s <- wa        : 
+wa nu 'ī s <- wa        : 
+wa nu SIL s <- wa        : 
+wa nu `a s <- wa        : 
+wa nu ad- s <- wa        : 
+wa nu ah s <- wa        : 
+wa nu al s <- wa        : 
+wa nu all s <- wa        : 
+wa nu ar- s <- wa        : 
+wa nu ađ- s <- wa        : 
+wa nu aş- s <- wa        : 
+wa nu bi s <- wa        : 
+wa nu ghay s <- wa        : 
+wa nu lil s <- wa        : 
+wa nu lā s <- wa        : 
+wa nu mā s <- wa        : 
+wa nu na` s <- wa        : 
+wa nu nas s <- wa        : 
+wa nu ra s <- wa        : 
+wa nu wa s <- wa        : 
+wa nu yaw s <- wa        : 
+wa nu şi s <- wa        : 
+wa nā 'an s <- wa        : 
+wa nā 'ī s <- wa        : 
+wa nā SIL s <- wa        : 
+wa nā `a s <- wa        : 
+wa nā ad- s <- wa        : 
+wa nā ah s <- wa        : 
+wa nā al s <- wa        : 
+wa nā all s <- wa        : 
+wa nā ar- s <- wa        : 
+wa nā ađ- s <- wa        : 
+wa nā aş- s <- wa        : 
+wa nā bi s <- wa        : 
+wa nā ghay s <- wa        : 
+wa nā lil s <- wa        : 
+wa nā lā s <- wa        : 
+wa nā mā s <- wa        : 
+wa nā na` s <- wa        : 
+wa nā nas s <- wa        : 
+wa nā ra s <- wa        : 
+wa nā wa s <- wa        : 
+wa nā yaw s <- wa        : 
+wa nā şi s <- wa        : 
+wa ri 'an s <- wa        : 
+wa ri 'ī s <- wa        : 
+wa ri SIL s <- wa        : 
+wa ri `a s <- wa        : 
+wa ri ad- s <- wa        : 
+wa ri ah s <- wa        : 
+wa ri al s <- wa        : 
+wa ri all s <- wa        : 
+wa ri ar- s <- wa        : 
+wa ri ađ- s <- wa        : 
+wa ri aş- s <- wa        : 
+wa ri bi s <- wa        : 
+wa ri ghay s <- wa        : 
+wa ri lil s <- wa        : 
+wa ri lā s <- wa        : 
+wa ri mā s <- wa        : 
+wa ri na` s <- wa        : 
+wa ri nas s <- wa        : 
+wa ri ra s <- wa        : 
+wa ri wa s <- wa        : 
+wa ri yaw s <- wa        : 
+wa ri şi s <- wa        : 
+wa ta 'an s <- wa        : 
+wa ta 'ī s <- wa        : 
+wa ta SIL s <- wa        : 
+wa ta `a s <- wa        : 
+wa ta ad- s <- wa        : 
+wa ta ah s <- wa        : 
+wa ta al s <- wa        : 
+wa ta all s <- wa        : 
+wa ta ar- s <- wa        : 
+wa ta ađ- s <- wa        : 
+wa ta aş- s <- wa        : 
+wa ta bi s <- wa        : 
+wa ta ghay s <- wa        : 
+wa ta lil s <- wa        : 
+wa ta lā s <- wa        : 
+wa ta mā s <- wa        : 
+wa ta na` s <- wa        : 
+wa ta nas s <- wa        : 
+wa ta ra s <- wa        : 
+wa ta wa s <- wa        : 
+wa ta yaw s <- wa        : 
+wa ta şi s <- wa        : 
+wa wa 'an s <- wa        : 
+wa wa 'ī s <- wa        : 
+wa wa SIL s <- wa        : 
+wa wa `a s <- wa        : 
+wa wa ad- s <- wa        : 
+wa wa ah s <- wa        : 
+wa wa al s <- wa        : 
+wa wa all s <- wa        : 
+wa wa ar- s <- wa        : 
+wa wa ađ- s <- wa        : 
+wa wa aş- s <- wa        : 
+wa wa bi s <- wa        : 
+wa wa ghay s <- wa        : 
+wa wa lil s <- wa        : 
+wa wa lā s <- wa        : 
+wa wa mā s <- wa        : 
+wa wa na` s <- wa        : 
+wa wa nas s <- wa        : 
+wa wa ra s <- wa        : 
+wa wa wa s <- wa        : 
+wa wa yaw s <- wa        : 
+wa wa şi s <- wa        : 
+wa ţa 'an s <- wa        : 
+wa ţa 'ī s <- wa        : 
+wa ţa SIL s <- wa        : 
+wa ţa `a s <- wa        : 
+wa ţa ad- s <- wa        : 
+wa ţa ah s <- wa        : 
+wa ţa al s <- wa        : 
+wa ţa all s <- wa        : 
+wa ţa ar- s <- wa        : 
+wa ţa ađ- s <- wa        : 
+wa ţa aş- s <- wa        : 
+wa ţa bi s <- wa        : 
+wa ţa ghay s <- wa        : 
+wa ţa lil s <- wa        : 
+wa ţa lā s <- wa        : 
+wa ţa mā s <- wa        : 
+wa ţa na` s <- wa        : 
+wa ţa nas s <- wa        : 
+wa ţa ra s <- wa        : 
+wa ţa wa s <- wa        : 
+wa ţa yaw s <- wa        : 
+wa ţa şi s <- wa        : 
+yaw SIL mi b <- yaw       : [mx   355(0) +=   156] [mg   355(0) <-   156] [mx   356(1) +=   157] [mg   356(1) <-   157] [mx   357(2) +=   158] [mg   357(2) <-   158] 
+yaw bbi mi b <- yaw       : 
+yaw bi mi b <- yaw       : 
+yaw du mi b <- yaw       : 
+yaw h mi b <- yaw       : 
+yaw hi mi b <- yaw       : 
+yaw him mi b <- yaw       : 
+yaw ka mi b <- yaw       : 
+yaw ki mi b <- yaw       : 
+yaw llīna mi b <- yaw       : 
+yaw lā mi b <- yaw       : 
+yaw ma mi b <- yaw       : 
+yaw mi mi b <- yaw       : 
+yaw na mi b <- yaw       : 
+yaw ni mi b <- yaw       : 
+yaw nu mi b <- yaw       : 
+yaw nā mi b <- yaw       : 
+yaw ri mi b <- yaw       : 
+yaw ta mi b <- yaw       : 
+yaw wa mi b <- yaw       : 
+yaw ţa mi b <- yaw       : 
+yā 'ī ka i <- yā       : [mx   358(0) +=   159] [mg   358(0) <-   159] [mx   359(1) +=   160] [mg   359(1) <-   160] [mx   360(2) +=   161] [mg   360(2) <-   161] 
+ā all hi i <- ā        : [mx   361(0) +=   162] [mg   361(0) <-   162] [mx   362(1) +=   163] [mg   362(1) <-   163] [mx   363(2) +=   164] [mg   363(2) <-   164] 
+đā ađ- llīna i <- đā      : [mx   364(0) +=   165] [mg   364(0) <-   165] [mx   365(1) +=   166] [mg   365(1) <-   166] [mx   366(2) +=   167] [mg   366(2) <-   167] 
+đū magh bi i <- đū      : [mx   367(0) +=   168] [mg   367(0) <-   168] [mx   368(1) +=   169] [mg   368(1) <-   169] [mx   369(2) +=   170] [mg   369(2) <-   170] 
+ĥ ra mā i <- ĥ        : [mx   370(0) +=   171] [mg   370(0) <-   171] [mx   371(1) +=   172] [mg   371(1) <-   172] [mx   372(2) +=   173] [mg   372(2) <-   173] 
+ĥam al du i <- ĥam      : [mx   373(0) +=   174] [mg   373(0) <-   174] [mx   374(1) +=   175] [mg   374(1) <-   175] [mx   375(2) +=   176] [mg   375(2) <-   176] 
+ĥī ra mi i <- ĥī      : [mx   376(0) +=   177] [mg   376(0) <-   177] [mx   377(1) +=   178] [mg   377(1) <-   178] [mx   378(2) +=   179] [mg   378(2) <-   179] 
+şi SIL rā b <- şi       : [mx   380(0) +=   180] [mg   380(0) <-   180] [mx   381(1) +=   181] [mg   381(1) <-   181] [mx   382(2) +=   182] [mg   382(2) <-   182] 
+şi aş- rā i <- şi       : [mx   379(0) +=   180] [mg   379(0) <-   180] 
+şi bbi rā b <- şi       : 
+şi bi rā b <- şi       : 
+şi du rā b <- şi       : 
+şi h rā b <- şi       : 
+şi hi rā b <- şi       : 
+şi him rā b <- şi       : 
+şi ka rā b <- şi       : 
+şi ki rā b <- şi       : 
+şi llīna rā b <- şi       : 
+şi lā rā b <- şi       : 
+şi ma rā b <- şi       : 
+şi mi rā b <- şi       : 
+şi na rā b <- şi       : 
+şi ni rā b <- şi       : 
+şi nu rā b <- şi       : 
+şi nā rā b <- şi       : 
+şi ri rā b <- şi       : 
+şi ta rā b <- şi       : 
+şi wa rā b <- şi       : 
+şi ţa rā b <- şi       : 
+ţa rā 'an e <- ţa       : [mx   383(0) +=   183] [mg   383(0) <-   183] [mx   384(1) +=   184] [mg   384(1) <-   184] [mx   385(2) +=   185] [mg   385(2) <-   185] 
+ţa rā 'ī e <- ţa       : 
+ţa rā SIL e <- ţa       : 
+ţa rā `a e <- ţa       : 
+ţa rā ad- e <- ţa       : 
+ţa rā ah e <- ţa       : 
+ţa rā al e <- ţa       : 
+ţa rā all e <- ţa       : 
+ţa rā ar- e <- ţa       : 
+ţa rā ađ- e <- ţa       : 
+ţa rā aş- e <- ţa       : 
+ţa rā bi e <- ţa       : 
+ţa rā ghay e <- ţa       : 
+ţa rā lil e <- ţa       : 
+ţa rā lā e <- ţa       : 
+ţa rā mā e <- ţa       : 
+ţa rā na` e <- ţa       : 
+ţa rā nas e <- ţa       : 
+ţa rā ra e <- ţa       : 
+ţa rā wa e <- ţa       : 
+ţa rā yaw e <- ţa       : 
+ţa rā şi e <- ţa       : INFO: main.c(529): Writing dest /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/transition_matrices
+INFO: s3tmat_io.c(176): Wrote /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/transition_matrices [62x3x4 array]
+INFO: main.c(540): Writing dest /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/mixture_weights
+INFO: s3mixw_io.c(233): Wrote /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/mixture_weights [386x1x1 array]
+INFO: main.c(549): Writing dest /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/means
+INFO: s3gau_io.c(228): Wrote /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/means [386x1x1 array]
+INFO: main.c(561): Writing dest /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/variances
+INFO: s3gau_io.c(228): Wrote /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_initial/variances [386x1x1 array]
+
+Sun Jan 24 16:57:28 2016

@@ -1,0 +1,958 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<meta http-equiv="REFRESH" content="60">
+<title>fatiha</title>
+<style type="text/css">
+body {
+ background: #f0f0f5;
+}
+p,span {
+ font-family: monospace;
+}
+p {
+ margin-right: 6em;
+}
+p.phase {
+ font-weight: bold;
+ margin-bottom: 0;
+}
+p.result, p.WARNING, p.error {
+ margin-top: 0;
+ margin-bottom: 0;
+ margin-left: 5em;
+}
+span.status {
+ float: right;
+ margin-top: -1em;
+}
+.passed, .completed {
+ color: #00D000;
+}
+.WARNING, .warning {
+ color: #555500;
+}
+.FAILED, .error {
+ color: #DD0000;
+}
+</style>
+</head>
+<body>
+<h1 class="experiment">/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model</h1>
+<h2 class="hostname">Training fatiha on Aziz-Desktop-Ubuntu</h2>
+<hr>
+<h3>MODULE: 000 Computing feature from audio files	(2016-01-24 16:56)</h3>
+<p class='audio files'>Extracting features from  segments starting at  (part 1 of 4) </p>
+<p class='result'>sphinx_fe <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/000.comp_feat/fatiha.test-1-4.log">Log File</a></p><p class='audio files'>Extracting features from  segments starting at  (part 4 of 4) </p>
+<p class='result'>sphinx_fe <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/000.comp_feat/fatiha.test-4-4.log">Log File</a></p><p class='audio files'>Extracting features from  segments starting at  (part 3 of 4) </p>
+<p class='result'>sphinx_fe <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/000.comp_feat/fatiha.test-3-4.log">Log File</a></p><p class='audio files'>Extracting features from  segments starting at  (part 1 of 4) </p>
+<p class='result'>sphinx_fe <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/000.comp_feat/fatiha.train-1-4.log">Log File</a></p><p class='audio files'>Extracting features from  segments starting at  (part 2 of 4) </p>
+<p class='result'>sphinx_fe <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/000.comp_feat/fatiha.train-2-4.log">Log File</a></p><p class='audio files'>Extracting features from  segments starting at  (part 3 of 4) </p>
+<p class='result'>sphinx_fe <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/000.comp_feat/fatiha.train-3-4.log">Log File</a></p><p class='audio files'>Extracting features from  segments starting at  (part 2 of 4) </p>
+<p class='result'>sphinx_fe <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/000.comp_feat/fatiha.test-2-4.log">Log File</a></p><p class='audio files'>Extracting features from  segments starting at  (part 4 of 4) </p>
+<p class='result'>sphinx_fe <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/000.comp_feat/fatiha.train-4-4.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p>Feature extraction is done</p>
+<hr>
+<h3>MODULE: 00 verify training files	(2016-01-24 16:56)</h3>
+<p class='phase'>Phase 1: Checking to see if the dict and filler dict agrees with the phonelist file.</p>
+<p class='result'>Found 29 words using 62 phones</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 2: Checking to make sure there are not duplicate entries in the dictionary</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 3: Check general format for the fileids file; utterance length (must be positive); files exist</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 4: Checking number of lines in the transcript file should match lines in fileids file</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 5: Determine amount of training data, see if n_tied_states seems reasonable.</p>
+<p class='result'>Estimated Total Hours Training: 1.68094444444444</p>
+<p class='result'>This is a small amount of data, no comment at this time</p>
+<span class='status WARNING'>WARNING</span>
+<p class='phase'>Phase 6: Checking that all the words in the transcript are in the dictionary</p>
+<p class='result'>Words in dictionary: 26</p>
+<p class='result'>Words in filler dictionary: 3</p>
+<span class='status passed'>passed</span>
+<p class='phase'>Phase 7: Checking that all the phones in the transcript are in the phonelist, and all phones in the phonelist appear at least once</p>
+<span class='status passed'>passed</span>
+<hr>
+<h3>MODULE: 0000 train grapheme-to-phoneme model	(2016-01-24 16:56)</h3>
+<p>Skipped (set $CFG_G2P_MODEL = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 01 Train LDA transformation	(2016-01-24 16:56)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 02 Train MLLT transformation	(2016-01-24 16:56)</h3>
+<p>Skipped (set $CFG_LDA_MLLT = 'yes' to enable)</p>
+<hr>
+<h3>MODULE: 05 Vector Quantization	(2016-01-24 16:56)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: 10 Training Context Independent models for forced alignment and VTLN	(2016-01-24 16:56)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 11 Force-aligning transcripts	(2016-01-24 16:56)</h3>
+<p>Skipped:  $ST::CFG_FORCEDALIGN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 12 Force-aligning data for VTLN	(2016-01-24 16:56)</h3>
+<p>Skipped:  $ST::CFG_VTLN set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 20 Training Context Independent models	(2016-01-24 16:56)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...</span>
+<span class='progress'>models...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Flat initialize</p>
+<p class='result'>mk_mdef_gen <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.make_ci_mdef_fromphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mk_flat <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.makeflat_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.initmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.normmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_gau <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.initvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.normvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.cpmean_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>cp_parm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.cpvar_cihmm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.1-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.1-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (4 of 4)</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.1-4.bw.log">Log File</a></p><p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.1-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -138.228277753908</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.2-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.2-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.2-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.2-4.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -132.863370459728</p>
+<p class='result'>Convergence Ratio = 5.36490729417969</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.3-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.3-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.3-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.3-2.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -128.335823115312</p>
+<p class='result'>Convergence Ratio = 4.52754734441584</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.4-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.4-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (2 of 4)</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 4 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.4-2.bw.log">Log File</a></p><p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.4-4.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -126.297931057276</p>
+<p class='result'>Convergence Ratio = 2.03789205803599</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.5-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.5-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.5-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 5 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.5-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -126.058102257329</p>
+<p class='result'>Convergence Ratio = 0.239828799947119</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.6-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.6-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.6-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 6 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.6-2.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/20.ci_hmm/fatiha.1.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -126.007965098985</p>
+<p class='result'>Training completed after 6 iterations</p>
+<hr>
+<h3>MODULE: 30 Training Context Dependent models	(2016-01-24 16:57)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Initialization</p>
+<p class='result'>mk_mdef_gen <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.make_alltriphonelist.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>init_mixw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.copycitocd.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for iteration: 1 (1 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.1-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for iteration: 1 (4 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.1-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for iteration: 1 (3 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.1-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for iteration: 1 (2 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.1-2.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.1.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -125.982417291866</p>
+<p class='result'>Baum welch starting for iteration: 2 (1 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.2-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for iteration: 2 (2 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.2-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for iteration: 2 (4 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.2-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for iteration: 2 (3 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.2-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -124.854281653832</p>
+<p class='result'>Convergence Ratio = 1.12813563803383</p>
+<p class='result'>Baum welch starting for iteration: 3 (1 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.3-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for iteration: 3 (2 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.3-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for iteration: 3 (4 of 4) </p>
+<p class='result'>Baum welch starting for iteration: 3 (3 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.3-3.bw.log">Log File</a></p><p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.3-4.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -122.34492844631</p>
+<p class='result'>Convergence Ratio = 2.50935320752205</p>
+<p class='result'>Baum welch starting for iteration: 4 (1 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.4-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for iteration: 4 (4 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.4-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for iteration: 4 (3 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.4-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for iteration: 4 (2 of 4) </p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.4-2.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/30.cd_hmm_untied/fatiha.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -122.250156988465</p>
+<p class='result'>Training completed after 4 iterations</p>
+<hr>
+<h3>MODULE: 40 Build Trees	(2016-01-24 16:57)</h3>
+<p class='phase'>Phase 1: Cleaning up old log files...</p>
+<p class='phase'>Phase 2: Make Questions</p>
+<p class='result'>make_quests <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.make_questions.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Tree building</p>
+<p class='result'>Processing each phone with each state</p>
+<p class='result'>s 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.s.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>s 1 </p>
+<p class='result'>ā 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.s.1.log">Log File</a></p><p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ā.0.log">Log File</a></p><p class='result'>hi 0 </p>
+<p class='result'>ĥ 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.hi.0.log">Log File</a></p><p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ĥ.0.log">Log File</a></p><p class='result'>all 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.all.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ā 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ā.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ĥ 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ĥ.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>hi 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.hi.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>s 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.s.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>all 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.all.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ā 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ā.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>ĥ 2 </p>
+<p class='result'>hi 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ĥ.2.log">Log File</a></p><p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.hi.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>all 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.all.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>ar- 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ar-.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ar- 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ar-.1.log">Log File</a></p><p class='result'>lil 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.lil.0.log">Log File</a></p><p class='result'>h 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.h.0.log">Log File</a></p><p class='result'>ĥī 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ĥī.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>lil 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.lil.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ar- 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ar-.2.log">Log File</a></p><p class='result'>ĥam 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ĥam.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>h 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.h.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ĥī 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ĥī.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>lil 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.lil.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ĥam 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ĥam.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>h 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.h.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>ĥī 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ĥī.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>ĥam 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ĥam.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ra 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ra.0.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>ra 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ra.1.log">Log File</a></p><p class='result'>bbi 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.bbi.0.log">Log File</a></p><p class='result'>`ā 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`ā.0.log">Log File</a></p><p class='result'>mī 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mī.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>bbi 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.bbi.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ra 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ra.2.log">Log File</a></p><p class='result'>mā 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mā.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>`ā 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`ā.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mī 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mī.1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>bbi 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.bbi.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mā 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mā.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>`ā 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`ā.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mī 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mī.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>mā 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mā.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>li 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.li.0.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>li 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.li.1.log">Log File</a></p><p class='result'>ki 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ki.0.log">Log File</a></p><p class='result'>mi 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mi.0.log">Log File</a></p><p class='result'>yaw 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.yaw.0.log">Log File</a></p><p class='result'>ad- 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ad-.0.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>li 2 </p>
+<p class='result'>ki 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ki.1.log">Log File</a></p><p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.li.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>yaw 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.yaw.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ad- 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ad-.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mi 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mi.1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>ki 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ki.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>yaw 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.yaw.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ad- 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ad-.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>mi 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mi.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>dī 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.dī.0.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>dī 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.dī.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>'ī 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.'ī.0.log">Log File</a></p><p class='result'>ni 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ni.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>dī 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.dī.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>'ī 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.'ī.1.log">Log File</a></p><p class='result'>yā 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.yā.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ni 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ni.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ka 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ka.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>'ī 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.'ī.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>yā 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.yā.1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>ni 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ni.2.log">Log File</a></p><p class='result'>ka 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ka.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>na` 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.na`.0.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>yā 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.yā.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>na` 1 </p>
+<p class='result'>ka 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.na`.1.log">Log File</a></p><p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ka.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>na` 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.na`.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>bu 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.bu.0.log">Log File</a></p><p class='result'>du 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.du.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>wa 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.wa.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>bu 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.bu.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>du 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.du.1.log">Log File</a></p><p class='result'>nas 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.nas.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>bu 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.bu.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>wa 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.wa.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>du 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.du.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>nas 1 </p>
+<p class='result'>`ī 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.nas.1.log">Log File</a></p><p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`ī.0.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>wa 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.wa.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>`ī 1 </p>
+<p class='result'>nas 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`ī.1.log">Log File</a></p><p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.nas.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>nu 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.nu.0.log">Log File</a></p><p class='result'>ah 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ah.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>`ī 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`ī.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>nu 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.nu.1.log">Log File</a></p><p class='result'>di 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.di.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ah 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ah.1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>di 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.di.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>nu 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.nu.2.log">Log File</a></p><p class='result'>nā 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.nā.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ah 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ah.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>di 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.di.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>nā 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.nā.1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>aş- 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.aş-.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>nā 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.nā.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mus 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mus.0.log">Log File</a></p><p class='result'>qī 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.qī.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>aş- 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.aş-.1.log">Log File</a></p><p class='result'>ma 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ma.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mus 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mus.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>qī 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.qī.1.log">Log File</a></p><p class='result'>şi 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.şi.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>aş- 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.aş-.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ma 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ma.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>mus 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.mus.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>qī 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.qī.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>şi 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.şi.1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>ma 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ma.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>şi 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.şi.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ţa 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ţa.0.log">Log File</a></p><p class='result'>la 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.la.0.log">Log File</a></p><p class='result'>rā 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.rā.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>dhī 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.dhī.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ţa 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ţa.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>la 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.la.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>rā 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.rā.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>dhī 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.dhī.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ţa 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ţa.2.log">Log File</a></p><p class='result'>na 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.na.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>la 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.la.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>rā 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.rā.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>na 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.na.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>dhī 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.dhī.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>na 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.na.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>`am 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`am.0.log">Log File</a></p><p class='result'>'an 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.'an.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>`am 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`am.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>'an 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.'an.1.log">Log File</a></p><p class='result'>lay 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.lay.0.log">Log File</a></p><p class='result'>ta 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ta.0.log">Log File</a></p><p class='result'>`a 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`a.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>lay 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.lay.1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>`am 2 </p>
+<p class='result'>'an 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`am.2.log">Log File</a></p><p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.'an.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>`a 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`a.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ta 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ta.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>lay 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.lay.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>`a 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.`a.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>ta 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ta.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>him 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.him.0.log">Log File</a></p><p class='result'>ghay 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ghay.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>him 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.him.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ghay 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ghay.1.log">Log File</a></p><p class='result'>al 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.al.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ghay 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ghay.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>him 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.him.2.log">Log File</a></p><p class='result'>ri 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ri.0.log">Log File</a></p><p class='result'>magh 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.magh.0.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>magh 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.magh.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ri 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ri.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>al 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.al.1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>magh 2 </p>
+<p class='result'>ri 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.magh.2.log">Log File</a></p><p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ri.2.log">Log File</a></p><p class='result'>bi 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.bi.0.log">Log File</a></p><p class='result'>đū 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.đū.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>al 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.al.2.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>đū 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.đū.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>bi 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.bi.1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>bi 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.bi.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>đū 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.đū.2.log">Log File</a></p><p class='result'>lā 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.lā.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>lā 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.lā.1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Skipping SIL</p>
+<p class='result'>đā 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.đā.0.log">Log File</a></p><p class='result'>ađ- 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ađ-.0.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>lā 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.lā.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>ađ- 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ađ-.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>đā 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.đā.1.log">Log File</a></p><p class='result'>llīna 0 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.llīna.0.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>ađ- 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.ađ-.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>đā 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.đā.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>llīna 1 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.llīna.1.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>llīna 2 </p>
+<p class='result'>bldtree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/40.buildtrees/fatiha.buildtree.llīna.2.log">Log File</a></p><span class='status completed'>completed</span>
+<hr>
+<h3>MODULE: 45 Prune Trees	(2016-01-24 16:57)</h3>
+<p class='result'>mk_mdef_gen <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/45.prunetree/fatiha.build.alltriphones.mdef.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 1: Tree Pruning</p>
+<p class='result'>prunetree <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/45.prunetree/fatiha.prunetree.200.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 2: State Tying</p>
+<p class='result'>tiestate <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/45.prunetree/fatiha.tiestate.200.log">Log File</a></p><span class='status completed'>completed</span>
+<hr>
+<h3>MODULE: 50 Training Context dependent models	(2016-01-24 16:57)</h3>
+<p class='phase'>Phase 1: Cleaning up directories:</p>
+<span class='progress'>	accumulator...</span>
+<span class='progress'>logs...</span>
+<span class='progress'>qmanager...
+</span>
+<span class='status completed'>completed</span>
+<p class='phase'>Phase 2: Copy CI to CD initialize</p>
+<p class='result'>init_mixw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.copy.ci.2.cd.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='phase'>Phase 3: Forward-Backward</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.1-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.1-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (2 of 4)</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 1 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.1-2.bw.log">Log File</a></p><p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.1-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.1.norm.log">Log File</a></p><p class='error'>ERROR: This step had 58 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -125.982417291866</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.2-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.2-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.2-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 2 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.2-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -124.947830254156</p>
+<p class='result'>Convergence Ratio = 1.03458703770994</p>
+<p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.3-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.3-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.3-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 1 Gaussian(s), iteration: 3 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.3-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.1.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -124.902452325082</p>
+<p class='result'>Split Gaussians, increase by 1</p>
+<p class='result'>inc_comp <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.split_gaussians.1.1.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -124.902452325082</p>
+<p class='result'>Convergence Ratio = 0.0453779290742062</p>
+<p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 1 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.1-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 1 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.1-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 1 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.1-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 1 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.1-4.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.1.norm.log">Log File</a></p><p class='error'>ERROR: This step had 178 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -125.394437650792</p>
+<p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 2 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.2-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 2 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.2-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 2 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.2-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 2 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.2-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -123.40608784744</p>
+<p class='result'>Convergence Ratio = 1.98834980335174</p>
+<p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 3 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.3-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 3 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.3-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 3 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.3-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 3 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.3-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -121.71581782728</p>
+<p class='result'>Convergence Ratio = 1.69027002016037</p>
+<p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 4 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.4-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 4 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.4-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 4 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.4-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 4 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.4-4.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -120.597531149817</p>
+<p class='result'>Convergence Ratio = 1.11828667746343</p>
+<p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 5 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.5-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 5 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.5-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 5 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.5-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 5 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.5-4.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -120.381762897842</p>
+<p class='result'>Convergence Ratio = 0.215768251975177</p>
+<p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 6 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.6-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 6 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.6-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 6 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.6-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 2 Gaussian(s), iteration: 6 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.6-2.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.2.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -120.307019863172</p>
+<p class='result'>Split Gaussians, increase by 2</p>
+<p class='result'>inc_comp <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.split_gaussians.2.2.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -120.307019863172</p>
+<p class='result'>Convergence Ratio = 0.0747430346698366</p>
+<p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 1 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.1-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 1 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.1-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 1 (2 of 4)</p>
+<p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 1 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.1-3.bw.log">Log File</a></p><p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.1-2.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.1.norm.log">Log File</a></p><p class='error'>ERROR: This step had 506 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -120.826684734111</p>
+<p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 2 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.2-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 2 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.2-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 2 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.2-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 2 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.2-4.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -118.187031100241</p>
+<p class='result'>Convergence Ratio = 2.63965363386973</p>
+<p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 3 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.3-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 3 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.3-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 3 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.3-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 3 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.3-2.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -115.193822917011</p>
+<p class='result'>Convergence Ratio = 2.99320818323007</p>
+<p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 4 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.4-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 4 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.4-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 4 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.4-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 4 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.4-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -110.017351356711</p>
+<p class='result'>Convergence Ratio = 5.17647156030016</p>
+<p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 5 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.5-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 5 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.5-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 5 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.5-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 5 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.5-2.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -109.287900320587</p>
+<p class='result'>Convergence Ratio = 0.729451036124033</p>
+<p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 6 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.6-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 6 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.6-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 6 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.6-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 6 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.6-4.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -109.163350629606</p>
+<p class='result'>Convergence Ratio = 0.124549690980629</p>
+<p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 7 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.7-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 7 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.7-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 7 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.7-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 4 Gaussian(s), iteration: 7 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.7-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.4.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -109.082080179793</p>
+<p class='result'>Split Gaussians, increase by 4</p>
+<p class='result'>inc_comp <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.split_gaussians.4.4.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -109.082080179793</p>
+<p class='result'>Convergence Ratio = 0.0812704498128909</p>
+<p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 1 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.1-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 1 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.1-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 1 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.1-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 1 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.1-2.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 1</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.1.norm.log">Log File</a></p><p class='error'>ERROR: This step had 3023 ERROR messages and 0 WARNING messages.  Please check the log file for details.</p>
+<span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -109.641140893016</p>
+<p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 2 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.2-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 2 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.2-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 2 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.2-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 2 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.2-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 2</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.2.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -105.832799021714</p>
+<p class='result'>Convergence Ratio = 3.80834187130202</p>
+<p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 3 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.3-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 3 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.3-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 3 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.3-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 3 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.3-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 3</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.3.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -100.508047724494</p>
+<p class='result'>Convergence Ratio = 5.32475129722049</p>
+<p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 4 (2 of 4)</p>
+<p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 4 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.4-3.bw.log">Log File</a></p><p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.4-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 4 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.4-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 4 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.4-4.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 4</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.4.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -87.5071718941071</p>
+<p class='result'>Convergence Ratio = 13.0008758303869</p>
+<p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 5 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.5-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 5 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.5-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 5 (4 of 4)</p>
+<p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 5 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.5-4.bw.log">Log File</a></p><p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.5-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 5</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.5.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -85.9060217470337</p>
+<p class='result'>Convergence Ratio = 1.60115014707335</p>
+<p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 6 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.6-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 6 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.6-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 6 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.6-2.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 6 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.6-3.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 6</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.6.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -85.7526688039131</p>
+<p class='result'>Convergence Ratio = 0.153352943120566</p>
+<p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 7 (4 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.7-4.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 7 (3 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.7-3.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 7 (1 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.7-1.bw.log">Log File</a></p><p class='result'>Baum welch starting for 8 Gaussian(s), iteration: 7 (2 of 4)</p>
+<p class='result'>bw <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.7-2.bw.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p class='result'>Normalization for iteration: 7</p>
+<p class='result'>norm <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/50.cd_hmm_tied/fatiha.8.7.norm.log">Log File</a></p><span class='status completed'>completed</span>
+<p class='result'>Current Overall Likelihood Per Frame = -85.6992762005486</p>
+<p>Training for 8 Gaussian(s) completed after 7 iterations</p>
+<hr>
+<h3>MODULE: 60 Lattice Generation	(2016-01-24 16:58)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 61 Lattice Pruning	(2016-01-24 16:58)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 62 Lattice Format Conversion	(2016-01-24 16:58)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 65 MMIE Training	(2016-01-24 16:58)</h3>
+<p>Skipped:  $ST::CFG_MMIE set to 'no' in sphinx_train.cfg</p>
+<hr>
+<h3>MODULE: 90 deleted interpolation	(2016-01-24 16:58)</h3>
+<p>Skipped for continuous models</p>
+<hr>
+<h3>MODULE: DECODE Decoding using models previously trained	(2016-01-24 16:58)</h3>
+<p class='result'>Decoding 6 segments starting at 5 (part 2 of 4) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/decode/fatiha-2-4.log">Log File</a></p><p class='result'>Decoding 6 segments starting at 16 (part 4 of 4) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/decode/fatiha-4-4.log">Log File</a></p><p class='result'>Decoding 5 segments starting at 0 (part 1 of 4) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/decode/fatiha-1-4.log">Log File</a></p><p class='result'>Decoding 5 segments starting at 11 (part 3 of 4) </p>
+<p class='result'>pocketsphinx_batch <a href="file:///home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/logdir/decode/fatiha-3-4.log">Log File</a></p><span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<span class='status completed'>completed</span>
+<p>        Aligning results to find error rate</p>
+<p class='result'>SENTENCE ERROR: 45.5% (10/22)   WORD ERROR RATE: 12.8% (16/133)</p>
+<p class='result'>

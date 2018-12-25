@@ -1,0 +1,65 @@
+WDBNDRY_B
+WDBNDRY_E
+WDBNDRY_S
+WDBNDRY_I
+SILENCE   SIL
+QUESTION0_0_R  'an 'ī `a `am `ā `ī ad- ah al all ar- aş- bbi bi bu dhī di du dī ghay h hi him ki la lay lil llīna lā ma magh mi mus mā mī na na` ni nu nā qī ra ri rā s ta wa yaw yā ā đā ĥ ĥam ĥī şi ţa
+QUESTION0_1_R  'an `a ad- all bi dhī di du ghay h hi him ki la lay llīna ma mi mus mī na ni yā ā
+QUESTION0_2_R  'an ad- bi dhī di hi ki la mus mī na ni yā ā
+QUESTION0_3_R  `a all du ghay h him lay llīna ma mi
+QUESTION0_4_R  `a ghay h ma mi
+QUESTION0_5_R  ghay mi
+QUESTION0_6_R  `a h ma
+QUESTION0_7_R  all du him lay llīna
+QUESTION0_8_R  'ī `am `ā `ī ah al ar- aş- bbi bu dī lil lā magh mā na` nu nā qī ra ri rā s ta wa yaw đā ĥ ĥam ĥī şi ţa
+QUESTION0_9_R  `am `ā al bbi bu lā magh na` nu nā qī ra ri rā ta wa yaw đā ĥ ĥī ţa
+QUESTION0_10_R  bbi lā magh nu ra rā ĥ ĥī
+QUESTION0_11_R  `am `ā al bu na` nā qī ri ta wa yaw đā ţa
+QUESTION0_12_R  'ī `ī ah ar- aş- dī lil mā s ĥam şi
+QUESTION0_13_R  'ī `ī ah ar- aş- dī lil mā ĥam şi
+QUESTION0_14_R  'ī ah ar- dī ĥam
+QUESTION0_15_R  `ī aş- lil mā şi
+QUESTION0_16_R  `ī aş- lil şi
+QUESTION0_17_R  `ī lil
+QUESTION0_18_R  aş- şi
+QUESTION0_19_R  ađ- ka li nas đū
+QUESTION0  'ī `a ah bbi di dī ghay ki llīna ma magh mi na nu đā
+QUESTION1  'ī ah
+QUESTION2  `a bbi di dī ghay ki llīna ma magh mi na nu đā
+QUESTION3  `a bbi di ma
+QUESTION4  dī ghay ki llīna magh mi na nu đā
+QUESTION5  dī ghay llīna magh mi đā
+QUESTION6  ki na nu
+QUESTION7  na nu
+QUESTION8  'an `am `ā `ī ad- al all ar- ađ- aş- bi bu dhī du h hi him ka la lay li lil lā mus mā mī na` nas ni nā qī ra ri rā s ta wa yaw yā ā đū ĥ ĥam ĥī şi ţa
+QUESTION9  `am al all ar- bi dhī ka la li lil mā mī nas qī s ta yā ā đū
+QUESTION10  mā
+QUESTION11  `am al all ar- bi dhī ka la li lil mī nas qī s ta yā ā đū
+QUESTION12  `am dhī ka la li mī nas qī ta ā đū
+QUESTION13  al all ar- bi lil s yā
+QUESTION14  lil yā
+QUESTION15  al all ar- bi s
+QUESTION16  al all
+QUESTION17  ar- bi s
+QUESTION18  bi s
+QUESTION19  'an `ā `ī ad- ađ- aş- bu du h hi him lay lā mus na` ni nā ra ri rā wa yaw ĥ ĥam ĥī şi ţa
+QUESTION2_0_L  dī llīna ma magh mi nu ĥī
+QUESTION2_1_L  'an 'ī `a `am `ā `ī ad- ah al all ar- ađ- aş- bbi bi bu dhī di du ghay h hi him ka ki la lay li lil lā mus mā mī na na` nas ni nā qī ra ri rā s ta wa yaw yā ā đā đū ĥ ĥam şi ţa
+QUESTION2_2_L  'an 'ī `am `ā `ī ah al all bi dhī di ghay ka ki la li lil mus mā mī na nas nā qī s ta yā ā đū ĥam ţa
+QUESTION2_3_L  'an `ā `ī all la lil mā yā ā
+QUESTION2_4_L  'ī `am ah al bi dhī di ghay ka ki li mus mī na nas nā qī s ta đū ĥam ţa
+QUESTION2_5_L  'ī ki mī na qī đū ĥam
+QUESTION2_6_L  `am ah al bi dhī di ghay ka li mus nas nā s ta ţa
+QUESTION2_7_L  `am ghay ka li nas ta ţa
+QUESTION2_8_L  ah al bi dhī di mus nā s
+QUESTION2_9_L  al dhī mus nā
+QUESTION2_10_L  ah bi di s
+QUESTION2_11_L  ah bi di
+QUESTION2_12_L  ah bi
+QUESTION2_13_L  `a ad- ar- ađ- aş- bbi bu du h hi him lay lā na` ni ra ri rā wa yaw đā ĥ şi
+QUESTION2_14_L  ar- aş- h hi ra şi
+QUESTION2_15_L  aş- şi
+QUESTION2_16_L  ar- h hi ra
+QUESTION2_17_L  ar- hi ra
+QUESTION2_18_L  ar- hi
+QUESTION2_19_L  `a ad- ađ- bbi bu du him lay lā na` ni ri rā wa yaw đā ĥ

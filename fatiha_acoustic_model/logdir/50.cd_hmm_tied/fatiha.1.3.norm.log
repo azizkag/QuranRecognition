@@ -1,0 +1,46 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_4,/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_2,/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_3,/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/means
+-mixwfn			/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/transition_matrices
+-varfn			/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/variances
+
+INFO: main.c(207): Reading and accumulating counts from /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_4
+INFO: s3mixw_io.c(117): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_4/mixw_counts [386x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_4/tmat_counts [62x3x4 array]
+INFO: s3gau_io.c(386): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_4/gauden_counts with means with vars (2pass) [386x1x1 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_2
+INFO: s3mixw_io.c(117): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_2/mixw_counts [386x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_2/tmat_counts [62x3x4 array]
+INFO: s3gau_io.c(386): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_2/gauden_counts with means with vars (2pass) [386x1x1 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_3
+INFO: s3mixw_io.c(117): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_3/mixw_counts [386x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_3/tmat_counts [62x3x4 array]
+INFO: s3gau_io.c(386): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_3/gauden_counts with means with vars (2pass) [386x1x1 vector arrays]
+INFO: main.c(207): Reading and accumulating counts from /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_1
+INFO: s3mixw_io.c(117): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_1/mixw_counts [386x1x1 array]
+INFO: s3tmat_io.c(118): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_1/tmat_counts [62x3x4 array]
+INFO: s3gau_io.c(386): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/bwaccumdir/fatiha_buff_1/gauden_counts with means with vars (2pass) [386x1x1 vector arrays]
+INFO: main.c(321): -2passvar yes
+INFO: main.c(391): Normalizing mean for n_mgau= 386, n_stream= 1, n_density= 1
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/mixture_weights [386x1x1 array]
+INFO: s3tmat_io.c(176): Wrote /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/transition_matrices [62x3x4 array]
+INFO: s3gau_io.c(228): Wrote /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/means [386x1x1 array]
+INFO: s3gau_io.c(228): Wrote /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/variances [386x1x1 array]
+Sun Jan 24 16:57:34 2016
+Current Overall Likelihood Per Frame = -124.902452325082
+Convergence ratio = 0.0453779290742062

@@ -1,0 +1,41 @@
+package quranRecognizer;
+
+    	
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
+
+import edu.cmu.sphinx.api.Configuration;
+import edu.cmu.sphinx.api.SpeechResult;
+import edu.cmu.sphinx.api.StreamSpeechRecognizer;
+
+public class TranscriberDemo {       
+                                     
+    public static void main(String[] args) throws Exception {
+        
+    	
+    	String wavFile = "src/main/resources/PDAs01_039_1.wav";
+
+    	
+        Configuration configuration = new Configuration();
+
+        configuration
+                .setAcousticModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us");
+        configuration
+                .setDictionaryPath("src/main/resources/fatiha.dict");
+        configuration
+                .setLanguageModelPath("src/main/resources/fatiha_lmtool/4858.lm");
+
+        StreamSpeechRecognizer recognizer = new StreamSpeechRecognizer(
+                configuration);
+        InputStream stream = new FileInputStream(new File(wavFile));
+
+        recognizer.startRecognition(stream);
+        SpeechResult result;
+        while ((result = recognizer.getResult()) != null) {
+            System.out.format("Hypothesis: %s\n", result.getHypothesis());
+        }
+        recognizer.stopRecognition();
+    }
+}

@@ -1,0 +1,38 @@
+Current configuration:
+[NAME]		[DEFLT]			[VALUE]
+-example	no			no
+-fullvar	no			no
+-help		no			no
+-meanfn					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/means
+-mixwfn					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/mixture_weights
+-moddeffn				/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.ci.mdef
+-niter		0			1
+-npermute	6			12
+-qstperstt	8			20
+-questfn				/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.tree_questions
+-tempfn		/tmp/TEMP.QUESTS	/tmp/TEMP.QUESTS
+-type					.cont.
+-varfloor	1.0e-08			1.000000e-08
+-varfn					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/variances
+
+INFO: main.c(792): Reading: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 62 total models defined (62 base, 0 tri)
+INFO: model_def_io.c(575): 248 total states
+INFO: model_def_io.c(576): 186 total tied states
+INFO: model_def_io.c(577): 186 total tied CI states
+INFO: model_def_io.c(578): 62 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(811): Reading: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/mixture_weights
+INFO: s3mixw_io.c(117): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/mixture_weights [186x1x1 array]
+INFO: s3gau_io.c(169): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/means [186x1x1 array]
+INFO: s3gau_io.c(169): Read /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.ci_cont/variances [186x1x1 array]
+INFO: main.c(1109): Done building questions using state 0
+INFO: main.c(1110):  20 questions from state 0
+INFO: main.c(1109): Done building questions using state 1
+INFO: main.c(1110):  20 questions from state 1
+INFO: main.c(1109): Done building questions using state 2
+INFO: main.c(1110):  20 questions from state 2
+INFO: main.c(1115): Stored questions in /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.tree_questions
+Sun Jan 24 16:57:27 2016

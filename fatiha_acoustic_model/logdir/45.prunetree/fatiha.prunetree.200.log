@@ -1,0 +1,431 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-allphones	no	no
+-example	no	no
+-help		no	no
+-itreedir		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/trees/fatiha.unpruned
+-minocc		0.0	0.000000e+00
+-moddeffn		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.alltriphones.mdef
+-nseno			200
+-otreedir		/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/trees/fatiha.200
+-psetfn			/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.tree_questions
+
+INFO: main.c(76): Reading: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.alltriphones.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 2006 total models defined (62 base, 1944 tri)
+INFO: model_def_io.c(575): 8024 total states
+INFO: model_def_io.c(576): 6018 total tied states
+INFO: model_def_io.c(577): 186 total tied CI states
+INFO: model_def_io.c(578): 62 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(82): Reading: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_architecture/fatiha.tree_questions
+INFO: main.c(185): 'an-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): 'an-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): 'an-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): 'ī-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): 'ī-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): 'ī-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): `a-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): `a-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): `a-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): `am-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): `am-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): `am-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): `ā-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): `ā-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): `ā-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): `ī-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): `ī-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): `ī-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ad--0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ad--1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ad--2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ah-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ah-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ah-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): al-0	5 [0 < 0.000000e+00]
+INFO: main.c(185): al-1	5 [0 < 0.000000e+00]
+INFO: main.c(185): al-2	5 [0 < 0.000000e+00]
+INFO: main.c(185): all-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): all-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): all-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ar--0	3 [0 < 0.000000e+00]
+INFO: main.c(185): ar--1	3 [0 < 0.000000e+00]
+INFO: main.c(185): ar--2	3 [0 < 0.000000e+00]
+INFO: main.c(185): ađ--0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ađ--1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ađ--2	1 [0 < 0.000000e+00]
+INFO: main.c(185): aş--0	1 [0 < 0.000000e+00]
+INFO: main.c(185): aş--1	1 [0 < 0.000000e+00]
+INFO: main.c(185): aş--2	1 [0 < 0.000000e+00]
+INFO: main.c(185): bbi-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): bbi-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): bbi-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): bi-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): bi-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): bi-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): bu-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): bu-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): bu-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): dhī-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): dhī-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): dhī-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): di-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): di-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): di-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): du-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): du-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): du-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): dī-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): dī-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): dī-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ghay-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ghay-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ghay-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): h-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): h-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): h-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): hi-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): hi-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): hi-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): him-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): him-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): him-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): ka-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): ka-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): ka-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): ki-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ki-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ki-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): la-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): la-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): la-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): lay-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): lay-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): lay-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): li-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): li-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): li-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): lil-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): lil-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): lil-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): llīna-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): llīna-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): llīna-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): lā-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): lā-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): lā-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): ma-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ma-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ma-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): magh-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): magh-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): magh-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): mi-0	3 [0 < 0.000000e+00]
+INFO: main.c(185): mi-1	3 [0 < 0.000000e+00]
+INFO: main.c(185): mi-2	3 [0 < 0.000000e+00]
+INFO: main.c(185): mus-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): mus-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): mus-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): mā-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): mā-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): mā-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): mī-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): mī-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): mī-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): na-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): na-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): na-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): na`-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): na`-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): na`-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): nas-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): nas-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): nas-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ni-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): ni-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): ni-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): nu-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): nu-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): nu-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): nā-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): nā-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): nā-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): qī-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): qī-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): qī-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ra-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): ra-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): ra-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): ri-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ri-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ri-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): rā-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): rā-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): rā-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): s-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): s-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): s-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ta-0	3 [0 < 0.000000e+00]
+INFO: main.c(185): ta-1	3 [0 < 0.000000e+00]
+INFO: main.c(185): ta-2	3 [0 < 0.000000e+00]
+INFO: main.c(185): wa-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): wa-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): wa-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): yaw-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): yaw-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): yaw-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): yā-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): yā-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): yā-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ā-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ā-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ā-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): đā-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): đā-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): đā-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): đū-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): đū-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): đū-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ĥ-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ĥ-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ĥ-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ĥam-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ĥam-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ĥam-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): ĥī-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ĥī-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ĥī-2	1 [0 < 0.000000e+00]
+INFO: main.c(185): şi-0	2 [0 < 0.000000e+00]
+INFO: main.c(185): şi-1	2 [0 < 0.000000e+00]
+INFO: main.c(185): şi-2	2 [0 < 0.000000e+00]
+INFO: main.c(185): ţa-0	1 [0 < 0.000000e+00]
+INFO: main.c(185): ţa-1	1 [0 < 0.000000e+00]
+INFO: main.c(185): ţa-2	1 [0 < 0.000000e+00]
+INFO: main.c(270): Prior to pruning n_seno= 255
+INFO: main.c(278): n_twig= 54
+INFO: main.c(308): Pruning 55 nodes
+INFO: main.c(341): Root node extracted (ka 2) from heap
+INFO: main.c(341): Root node extracted (ka 1) from heap
+INFO: main.c(341): Root node extracted (bi 1) from heap
+INFO: main.c(341): Root node extracted (ra 0) from heap
+INFO: main.c(341): Root node extracted (mā 0) from heap
+INFO: main.c(341): Root node extracted (bi 2) from heap
+INFO: main.c(341): Root node extracted (him 1) from heap
+INFO: main.c(341): Root node extracted (bi 0) from heap
+INFO: main.c(341): Root node extracted (du 0) from heap
+INFO: main.c(341): Root node extracted (him 0) from heap
+INFO: main.c(341): Root node extracted (wa 0) from heap
+INFO: main.c(341): Root node extracted (ka 0) from heap
+INFO: main.c(341): Root node extracted (na 0) from heap
+INFO: main.c(341): Root node extracted (`a 1) from heap
+INFO: main.c(341): Root node extracted (şi 2) from heap
+INFO: main.c(341): Root node extracted (him 2) from heap
+INFO: main.c(341): Root node extracted (ni 2) from heap
+INFO: main.c(341): Root node extracted (ni 1) from heap
+INFO: main.c(341): Root node extracted (ra 1) from heap
+INFO: main.c(341): Root node extracted (ni 0) from heap
+INFO: main.c(341): Root node extracted (`a 2) from heap
+INFO: main.c(341): Root node extracted (ta 2) from heap
+INFO: main.c(341): Root node extracted (ar- 1) from heap
+INFO: main.c(341): Root node extracted (ra 2) from heap
+INFO: main.c(341): Root node extracted (`a 0) from heap
+INFO: main.c(341): Root node extracted (wa 1) from heap
+INFO: main.c(341): Root node extracted (ta 1) from heap
+INFO: main.c(341): Root node extracted (mā 2) from heap
+INFO: main.c(341): Root node extracted (wa 2) from heap
+INFO: main.c(341): Root node extracted (ar- 0) from heap
+INFO: main.c(341): Root node extracted (şi 1) from heap
+INFO: main.c(341): Root node extracted (al 1) from heap
+INFO: main.c(341): Root node extracted ('ī 0) from heap
+INFO: main.c(341): Root node extracted ('ī 1) from heap
+INFO: main.c(341): Root node extracted (ar- 2) from heap
+INFO: main.c(341): Root node extracted (mi 1) from heap
+INFO: main.c(341): Root node extracted (mā 1) from heap
+INFO: main.c(341): Root node extracted (mi 0) from heap
+INFO: main.c(386): 'an-0	1
+INFO: main.c(386): 'an-1	1
+INFO: main.c(386): 'an-2	1
+INFO: main.c(386): 'ī-0	1
+INFO: main.c(386): 'ī-1	1
+INFO: main.c(386): 'ī-2	3
+INFO: main.c(386): `a-0	1
+INFO: main.c(386): `a-1	1
+INFO: main.c(386): `a-2	1
+INFO: main.c(386): `am-0	1
+INFO: main.c(386): `am-1	1
+INFO: main.c(386): `am-2	1
+INFO: main.c(386): `ā-0	1
+INFO: main.c(386): `ā-1	1
+INFO: main.c(386): `ā-2	1
+INFO: main.c(386): `ī-0	1
+INFO: main.c(386): `ī-1	1
+INFO: main.c(386): `ī-2	1
+INFO: main.c(386): ad--0	1
+INFO: main.c(386): ad--1	1
+INFO: main.c(386): ad--2	1
+INFO: main.c(386): ah-0	1
+INFO: main.c(386): ah-1	1
+INFO: main.c(386): ah-2	1
+INFO: main.c(386): al-0	3
+INFO: main.c(386): al-1	1
+INFO: main.c(386): al-2	5
+INFO: main.c(386): all-0	1
+INFO: main.c(386): all-1	1
+INFO: main.c(386): all-2	1
+INFO: main.c(386): ar--0	1
+INFO: main.c(386): ar--1	1
+INFO: main.c(386): ar--2	1
+INFO: main.c(386): ađ--0	1
+INFO: main.c(386): ađ--1	1
+INFO: main.c(386): ađ--2	1
+INFO: main.c(386): aş--0	1
+INFO: main.c(386): aş--1	1
+INFO: main.c(386): aş--2	1
+INFO: main.c(386): bbi-0	1
+INFO: main.c(386): bbi-1	1
+INFO: main.c(386): bbi-2	1
+INFO: main.c(386): bi-0	1
+INFO: main.c(386): bi-1	1
+INFO: main.c(386): bi-2	1
+INFO: main.c(386): bu-0	1
+INFO: main.c(386): bu-1	1
+INFO: main.c(386): bu-2	1
+INFO: main.c(386): dhī-0	1
+INFO: main.c(386): dhī-1	1
+INFO: main.c(386): dhī-2	1
+INFO: main.c(386): di-0	1
+INFO: main.c(386): di-1	1
+INFO: main.c(386): di-2	1
+INFO: main.c(386): du-0	1
+INFO: main.c(386): du-1	3
+INFO: main.c(386): du-2	3
+INFO: main.c(386): dī-0	1
+INFO: main.c(386): dī-1	1
+INFO: main.c(386): dī-2	1
+INFO: main.c(386): ghay-0	1
+INFO: main.c(386): ghay-1	1
+INFO: main.c(386): ghay-2	1
+INFO: main.c(386): h-0	1
+INFO: main.c(386): h-1	1
+INFO: main.c(386): h-2	1
+INFO: main.c(386): hi-0	1
+INFO: main.c(386): hi-1	1
+INFO: main.c(386): hi-2	1
+INFO: main.c(386): him-0	1
+INFO: main.c(386): him-1	1
+INFO: main.c(386): him-2	1
+INFO: main.c(386): ka-0	1
+INFO: main.c(386): ka-1	1
+INFO: main.c(386): ka-2	1
+INFO: main.c(386): ki-0	1
+INFO: main.c(386): ki-1	1
+INFO: main.c(386): ki-2	1
+INFO: main.c(386): la-0	3
+INFO: main.c(386): la-1	3
+INFO: main.c(386): la-2	3
+INFO: main.c(386): lay-0	1
+INFO: main.c(386): lay-1	1
+INFO: main.c(386): lay-2	1
+INFO: main.c(386): li-0	1
+INFO: main.c(386): li-1	1
+INFO: main.c(386): li-2	1
+INFO: main.c(386): lil-0	1
+INFO: main.c(386): lil-1	1
+INFO: main.c(386): lil-2	1
+INFO: main.c(386): llīna-0	1
+INFO: main.c(386): llīna-1	1
+INFO: main.c(386): llīna-2	1
+INFO: main.c(386): lā-0	3
+INFO: main.c(386): lā-1	3
+INFO: main.c(386): lā-2	3
+INFO: main.c(386): ma-0	1
+INFO: main.c(386): ma-1	1
+INFO: main.c(386): ma-2	1
+INFO: main.c(386): magh-0	1
+INFO: main.c(386): magh-1	1
+INFO: main.c(386): magh-2	1
+INFO: main.c(386): mi-0	1
+INFO: main.c(386): mi-1	1
+INFO: main.c(386): mi-2	3
+INFO: main.c(386): mus-0	1
+INFO: main.c(386): mus-1	1
+INFO: main.c(386): mus-2	1
+INFO: main.c(386): mā-0	1
+INFO: main.c(386): mā-1	1
+INFO: main.c(386): mā-2	1
+INFO: main.c(386): mī-0	1
+INFO: main.c(386): mī-1	1
+INFO: main.c(386): mī-2	1
+INFO: main.c(386): na-0	1
+INFO: main.c(386): na-1	3
+INFO: main.c(386): na-2	3
+INFO: main.c(386): na`-0	1
+INFO: main.c(386): na`-1	1
+INFO: main.c(386): na`-2	1
+INFO: main.c(386): nas-0	1
+INFO: main.c(386): nas-1	1
+INFO: main.c(386): nas-2	1
+INFO: main.c(386): ni-0	1
+INFO: main.c(386): ni-1	1
+INFO: main.c(386): ni-2	1
+INFO: main.c(386): nu-0	1
+INFO: main.c(386): nu-1	1
+INFO: main.c(386): nu-2	1
+INFO: main.c(386): nā-0	1
+INFO: main.c(386): nā-1	1
+INFO: main.c(386): nā-2	1
+INFO: main.c(386): qī-0	1
+INFO: main.c(386): qī-1	1
+INFO: main.c(386): qī-2	1
+INFO: main.c(386): ra-0	1
+INFO: main.c(386): ra-1	1
+INFO: main.c(386): ra-2	1
+INFO: main.c(386): ri-0	1
+INFO: main.c(386): ri-1	1
+INFO: main.c(386): ri-2	1
+INFO: main.c(386): rā-0	1
+INFO: main.c(386): rā-1	1
+INFO: main.c(386): rā-2	1
+INFO: main.c(386): s-0	1
+INFO: main.c(386): s-1	1
+INFO: main.c(386): s-2	1
+INFO: main.c(386): ta-0	3
+INFO: main.c(386): ta-1	1
+INFO: main.c(386): ta-2	1
+INFO: main.c(386): wa-0	1
+INFO: main.c(386): wa-1	1
+INFO: main.c(386): wa-2	1
+INFO: main.c(386): yaw-0	1
+INFO: main.c(386): yaw-1	1
+INFO: main.c(386): yaw-2	1
+INFO: main.c(386): yā-0	1
+INFO: main.c(386): yā-1	1
+INFO: main.c(386): yā-2	1
+INFO: main.c(386): ā-0	1
+INFO: main.c(386): ā-1	1
+INFO: main.c(386): ā-2	1
+INFO: main.c(386): đā-0	1
+INFO: main.c(386): đā-1	1
+INFO: main.c(386): đā-2	1
+INFO: main.c(386): đū-0	1
+INFO: main.c(386): đū-1	1
+INFO: main.c(386): đū-2	1
+INFO: main.c(386): ĥ-0	1
+INFO: main.c(386): ĥ-1	1
+INFO: main.c(386): ĥ-2	1
+INFO: main.c(386): ĥam-0	1
+INFO: main.c(386): ĥam-1	1
+INFO: main.c(386): ĥam-2	1
+INFO: main.c(386): ĥī-0	1
+INFO: main.c(386): ĥī-1	1
+INFO: main.c(386): ĥī-2	1
+INFO: main.c(386): şi-0	3
+INFO: main.c(386): şi-1	1
+INFO: main.c(386): şi-2	1
+INFO: main.c(386): ţa-0	1
+INFO: main.c(386): ţa-1	1
+INFO: main.c(386): ţa-2	1
+!!!!!!!!Allocated 65 lines
+Sun Jan 24 16:57:28 2016

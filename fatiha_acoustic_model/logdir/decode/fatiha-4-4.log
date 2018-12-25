@@ -1,0 +1,366 @@
+        INFO: pocketsphinx.c(145): Parsed model-specific feature parameters from /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/feat.params
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-agc			none		none
+-agcthresh		2.0		2.000000e+00
+-allphone				
+-allphone_ci		no		no
+-alpha			0.97		9.700000e-01
+-ascale			20.0		2.000000e+01
+-aw			1		1
+-backtrace		no		no
+-beam			1e-48		1.000000e-80
+-bestpath		yes		yes
+-bestpathlw		9.5		1.000000e+01
+-ceplen			13		13
+-cmn			current		current
+-cmninit		8.0		8.0
+-compallsen		no		no
+-debug					0
+-dict					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/etc/fatiha.dic
+-dictcase		no		no
+-dither			no		no
+-doublebw		no		no
+-ds			1		1
+-fdict					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/noisedict
+-feat			1s_c_d_dd	1s_c_d_dd
+-featparams				/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/feat.params
+-fillprob		1e-8		1.000000e-08
+-frate			100		100
+-fsg					
+-fsgusealtpron		yes		yes
+-fsgusefiller		yes		yes
+-fwdflat		yes		yes
+-fwdflatbeam		1e-64		1.000000e-80
+-fwdflatefwid		4		4
+-fwdflatlw		8.5		1.000000e+01
+-fwdflatsfwin		25		25
+-fwdflatwbeam		7e-29		1.000000e-40
+-fwdtree		yes		yes
+-hmm					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200
+-input_endian		little		little
+-jsgf					
+-keyphrase				
+-kws					
+-kws_delay		10		10
+-kws_plp		1e-1		1.000000e-01
+-kws_threshold		1		1.000000e+00
+-latsize		5000		5000
+-lda					
+-ldadim			0		0
+-lifter			0		22
+-lm					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/etc/fatiha.lm.DMP
+-lmctl					
+-lmname					
+-logbase		1.0001		1.000100e+00
+-logfn					
+-logspec		no		no
+-lowerf			133.33334	2.000000e+02
+-lpbeam			1e-40		1.000000e-80
+-lponlybeam		7e-29		1.000000e-80
+-lw			6.5		1.000000e+01
+-maxhmmpf		30000		30000
+-maxwpf			-1		-1
+-mdef					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/mdef
+-mean					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/means
+-mfclogdir				
+-min_endfr		0		0
+-mixw					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/mixture_weights
+-mixwfloor		0.0000001	1.000000e-07
+-mllr					
+-mmap			yes		yes
+-ncep			13		13
+-nfft			512		512
+-nfilt			40		15
+-nwpen			1.0		1.000000e+00
+-pbeam			1e-48		1.000000e-80
+-pip			1.0		1.000000e+00
+-pl_beam		1e-10		1.000000e-10
+-pl_pbeam		1e-10		1.000000e-10
+-pl_pip			1.0		1.000000e+00
+-pl_weight		3.0		3.000000e+00
+-pl_window		5		5
+-rawlogdir				
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-samprate		16000		1.600000e+04
+-seed			-1		-1
+-sendump				
+-senlogdir				
+-senmgau				
+-silprob		0.005		5.000000e-03
+-smoothspec		no		no
+-svspec					
+-tmat					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/transition_matrices
+-tmatfloor		0.0001		1.000000e-04
+-topn			4		4
+-topn_beam		0		0
+-toprule				
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	3.500000e+03
+-uw			1.0		1.000000e+00
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		2.0		2.000000e+00
+-var					/home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/variances
+-varfloor		0.0001		1.000000e-04
+-varnorm		no		no
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-wbeam			7e-29		1.000000e-40
+-wip			0.65		2.000000e-01
+-wlen			0.025625	2.562500e-02
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(143): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: mdef.c(518): Reading model definition: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/mdef
+INFO: bin_mdef.c(181): Allocating 2690 * 8 bytes (21 KiB) for CD tree
+INFO: tmat.c(206): Reading HMM transition probability matrices: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/transition_matrices
+INFO: acmod.c(117): Attempting to use PTM computation module
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/means
+INFO: ms_gauden.c(292): 386 codebook, 1 feature, size: 
+INFO: ms_gauden.c(294):  8x39
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/variances
+INFO: ms_gauden.c(292): 386 codebook, 1 feature, size: 
+INFO: ms_gauden.c(294):  8x39
+INFO: ms_gauden.c(354): 46520 variance values floored
+INFO: ptm_mgau.c(801): Number of codebooks exceeds 256: 386
+INFO: acmod.c(119): Attempting to use semi-continuous computation module
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/means
+INFO: ms_gauden.c(292): 386 codebook, 1 feature, size: 
+INFO: ms_gauden.c(294):  8x39
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/variances
+INFO: ms_gauden.c(292): 386 codebook, 1 feature, size: 
+INFO: ms_gauden.c(294):  8x39
+INFO: ms_gauden.c(354): 46520 variance values floored
+INFO: acmod.c(121): Falling back to general multi-stream GMM computation
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/means
+INFO: ms_gauden.c(292): 386 codebook, 1 feature, size: 
+INFO: ms_gauden.c(294):  8x39
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/variances
+INFO: ms_gauden.c(292): 386 codebook, 1 feature, size: 
+INFO: ms_gauden.c(294):  8x39
+INFO: ms_gauden.c(354): 46520 variance values floored
+INFO: ms_senone.c(149): Reading senone mixture weights: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/mixture_weights
+INFO: ms_senone.c(200): Truncating senone logs3(pdf) values by 10 bits
+INFO: ms_senone.c(207): Not transposing mixture weights in memory
+INFO: ms_senone.c(268): Read mixture weights for 386 senones: 1 features x 8 codewords
+INFO: ms_senone.c(320): Mapping senones to individual codebooks
+INFO: ms_mgau.c(141): The value of topn: 4
+INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(320): Allocating 4125 * 32 bytes (128 KiB) for word entries
+INFO: dict.c(333): Reading main dictionary: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/etc/fatiha.dic
+INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(336): 26 words read
+INFO: dict.c(358): Reading filler dictionary: /home/azizkag/projects/QuranRecognition/fatiha_acoustic_model/model_parameters/fatiha.cd_cont_200/noisedict
+INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(361): 3 words read
+INFO: dict2pid.c(396): Building PID tables for dictionary
+INFO: dict2pid.c(406): Allocating 62^3 * 2 bytes (465 KiB) for word-initial triphones
+INFO: dict2pid.c(132): Allocated 92752 bytes (90 KiB) for word-final triphones
+INFO: dict2pid.c(196): Allocated 92752 bytes (90 KiB) for single-phone word triphones
+INFO: ngram_model_trie.c(456): Trying to read LM in trie binary format
+INFO: ngram_model_trie.c(467): Header doesn't match
+INFO: ngram_model_trie.c(189): Trying to read LM in arpa format
+INFO: ngram_model_trie.c(205): LM of order 3
+INFO: ngram_model_trie.c(207): #1-grams: 28
+INFO: ngram_model_trie.c(207): #2-grams: 36
+INFO: ngram_model_trie.c(207): #3-grams: 30
+INFO: lm_trie.c(399): Training quantizer
+INFO: lm_trie.c(407): Building LM trie
+INFO: ngram_search_fwdtree.c(99): 23 unique initial diphones
+INFO: ngram_search_fwdtree.c(148): 0 root, 0 non-root channels, 6 single-phone words
+INFO: ngram_search_fwdtree.c(186): Creating search tree
+INFO: ngram_search_fwdtree.c(192): before: 0 root, 0 non-root channels, 6 single-phone words
+INFO: ngram_search_fwdtree.c(326): after: max nonroot chan increased to 159
+INFO: ngram_search_fwdtree.c(339): after: 23 root, 31 non-root channels, 5 single-phone words
+INFO: ngram_search_fwdflat.c(157): fwdflat: min_ef_width = 4, max_sf_win = 25
+INFO: batch.c(728): Decoding 'Mustafa_Ismail_48kbps/002'
+INFO: cmn.c(183): CMN: 57.29  7.08  8.97  8.79  8.31 -9.57  0.45  4.14 -0.87  0.04 11.11  0.70 -0.82 
+INFO: ngram_search_fwdtree.c(1553):      604 words recognized (1/fr)
+INFO: ngram_search_fwdtree.c(1555):     3844 senones evaluated (7/fr)
+INFO: ngram_search_fwdtree.c(1559):     1638 channels searched (2/fr), 323 1st, 1070 last
+INFO: ngram_search_fwdtree.c(1562):     1056 words for which last channels evaluated (1/fr)
+INFO: ngram_search_fwdtree.c(1564):       17 candidate words for entering last phone (0/fr)
+INFO: ngram_search_fwdtree.c(1567): fwdtree 0.06 CPU 0.012 xRT
+INFO: ngram_search_fwdtree.c(1570): fwdtree 0.06 wall 0.012 xRT
+INFO: ngram_search_fwdflat.c(302): Utterance vocabulary contains 6 words
+INFO: ngram_search_fwdflat.c(948):      172 words recognized (0/fr)
+INFO: ngram_search_fwdflat.c(950):     3392 senones evaluated (6/fr)
+INFO: ngram_search_fwdflat.c(952):     1396 channels searched (2/fr)
+INFO: ngram_search_fwdflat.c(954):     1066 words searched (1/fr)
+INFO: ngram_search_fwdflat.c(957):      276 word transitions (0/fr)
+INFO: ngram_search_fwdflat.c(960): fwdflat 0.00 CPU 0.000 xRT
+INFO: ngram_search_fwdflat.c(963): fwdflat 0.00 wall 0.000 xRT
+INFO: ngram_search.c(1253): lattice start node <s>.0 end node </s>.544
+INFO: ngram_search.c(1279): Eliminated 1 nodes before end node
+INFO: ngram_search.c(1384): Lattice has 11 nodes, 7 links
+INFO: ps_lattice.c(1380): Bestpath score: -1606
+INFO: ps_lattice.c(1384): Normalizer P(O) = alpha(</s>:544:546) = -114093
+INFO: ps_lattice.c(1441): Joint P(O,S) = -115232 P(S|O) = -1139
+INFO: ngram_search.c(875): bestpath 0.00 CPU 0.000 xRT
+INFO: ngram_search.c(878): bestpath 0.00 wall 0.000 xRT
+INFO: batch.c(760): Mustafa_Ismail_48kbps/002: 5.47 seconds speech, 0.07 seconds CPU, 0.07 seconds wall
+INFO: batch.c(762): Mustafa_Ismail_48kbps/002: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+al-ĥamdu lillāh rabbi al-`ālamīna (Mustafa_Ismail_48kbps/002 -1804)
+Mustafa_Ismail_48kbps/002 done --------------------------------------
+INFO: batch.c(728): Decoding 'Mustafa_Ismail_48kbps/003'
+INFO: cmn.c(183): CMN: 54.27  6.66 12.80 -1.33  8.35  2.76 -0.63 -3.54  6.63 -0.99  4.19 -5.57  1.57 
+INFO: ngram_search_fwdtree.c(1553):      770 words recognized (2/fr)
+INFO: ngram_search_fwdtree.c(1555):     4238 senones evaluated (9/fr)
+INFO: ngram_search_fwdtree.c(1559):     1844 channels searched (3/fr), 352 1st, 1167 last
+INFO: ngram_search_fwdtree.c(1562):     1160 words for which last channels evaluated (2/fr)
+INFO: ngram_search_fwdtree.c(1564):       10 candidate words for entering last phone (0/fr)
+INFO: ngram_search_fwdtree.c(1567): fwdtree 0.06 CPU 0.012 xRT
+INFO: ngram_search_fwdtree.c(1570): fwdtree 0.06 wall 0.012 xRT
+INFO: ngram_search_fwdflat.c(302): Utterance vocabulary contains 3 words
+INFO: ngram_search_fwdflat.c(948):      170 words recognized (0/fr)
+INFO: ngram_search_fwdflat.c(950):     3109 senones evaluated (7/fr)
+INFO: ngram_search_fwdflat.c(952):     1261 channels searched (2/fr)
+INFO: ngram_search_fwdflat.c(954):      914 words searched (1/fr)
+INFO: ngram_search_fwdflat.c(957):      126 word transitions (0/fr)
+INFO: ngram_search_fwdflat.c(960): fwdflat 0.00 CPU 0.001 xRT
+INFO: ngram_search_fwdflat.c(963): fwdflat 0.00 wall 0.001 xRT
+INFO: ngram_search.c(1253): lattice start node <s>.0 end node </s>.467
+INFO: ngram_search.c(1279): Eliminated 1 nodes before end node
+INFO: ngram_search.c(1384): Lattice has 13 nodes, 9 links
+INFO: ps_lattice.c(1380): Bestpath score: -1109
+INFO: ps_lattice.c(1384): Normalizer P(O) = alpha(</s>:467:469) = -80152
+INFO: ps_lattice.c(1441): Joint P(O,S) = -82789 P(S|O) = -2637
+INFO: ngram_search.c(875): bestpath 0.00 CPU 0.000 xRT
+INFO: ngram_search.c(878): bestpath 0.00 wall 0.000 xRT
+INFO: batch.c(760): Mustafa_Ismail_48kbps/003: 4.70 seconds speech, 0.06 seconds CPU, 0.06 seconds wall
+INFO: batch.c(762): Mustafa_Ismail_48kbps/003: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+ar-raĥmāni ar-raĥīmi (Mustafa_Ismail_48kbps/003 -1273)
+Mustafa_Ismail_48kbps/003 done --------------------------------------
+INFO: batch.c(728): Decoding 'Mustafa_Ismail_48kbps/004'
+INFO: cmn.c(183): CMN: 56.52  2.96 23.15  8.32  3.53 -9.66 -7.53 -5.25  2.82  0.56 10.54 -4.83 -6.09 
+INFO: ngram_search_fwdtree.c(1553):      460 words recognized (1/fr)
+INFO: ngram_search_fwdtree.c(1555):     2473 senones evaluated (6/fr)
+INFO: ngram_search_fwdtree.c(1559):      992 channels searched (2/fr), 165 1st, 636 last
+INFO: ngram_search_fwdtree.c(1562):      629 words for which last channels evaluated (1/fr)
+INFO: ngram_search_fwdtree.c(1564):       16 candidate words for entering last phone (0/fr)
+INFO: ngram_search_fwdtree.c(1567): fwdtree 0.05 CPU 0.011 xRT
+INFO: ngram_search_fwdtree.c(1570): fwdtree 0.05 wall 0.011 xRT
+INFO: ngram_search_fwdflat.c(302): Utterance vocabulary contains 3 words
+INFO: ngram_search_fwdflat.c(948):      223 words recognized (1/fr)
+INFO: ngram_search_fwdflat.c(950):     2021 senones evaluated (5/fr)
+INFO: ngram_search_fwdflat.c(952):      653 channels searched (1/fr)
+INFO: ngram_search_fwdflat.c(954):      500 words searched (1/fr)
+INFO: ngram_search_fwdflat.c(957):      126 word transitions (0/fr)
+INFO: ngram_search_fwdflat.c(960): fwdflat 0.00 CPU 0.000 xRT
+INFO: ngram_search_fwdflat.c(963): fwdflat 0.00 wall 0.000 xRT
+INFO: ngram_search.c(1200): </s> not found in last frame, using yawmi.394 instead
+INFO: ngram_search.c(1253): lattice start node <s>.0 end node yawmi.158
+INFO: ngram_search.c(1279): Eliminated 0 nodes before end node
+INFO: ngram_search.c(1384): Lattice has 6 nodes, 8 links
+INFO: ps_lattice.c(1380): Bestpath score: -682
+INFO: ps_lattice.c(1384): Normalizer P(O) = alpha(yawmi:158:394) = -53079388
+INFO: ps_lattice.c(1441): Joint P(O,S) = -53081272 P(S|O) = -1884
+INFO: ngram_search.c(875): bestpath 0.00 CPU 0.000 xRT
+INFO: ngram_search.c(878): bestpath 0.00 wall 0.000 xRT
+INFO: batch.c(760): Mustafa_Ismail_48kbps/004: 3.95 seconds speech, 0.05 seconds CPU, 0.05 seconds wall
+INFO: batch.c(762): Mustafa_Ismail_48kbps/004: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+māliki yawmi (Mustafa_Ismail_48kbps/004 -5230755)
+Mustafa_Ismail_48kbps/004 done --------------------------------------
+INFO: batch.c(728): Decoding 'Mustafa_Ismail_48kbps/005'
+INFO: cmn.c(183): CMN: 58.71  4.20 14.33  3.96  9.80 -13.75 -10.92 -5.51 -4.17  0.04  6.19 -7.25 -8.51 
+INFO: ngram_search_fwdtree.c(1553):      658 words recognized (1/fr)
+INFO: ngram_search_fwdtree.c(1555):     5938 senones evaluated (8/fr)
+INFO: ngram_search_fwdtree.c(1559):     2260 channels searched (3/fr), 732 1st, 1327 last
+INFO: ngram_search_fwdtree.c(1562):     1318 words for which last channels evaluated (1/fr)
+INFO: ngram_search_fwdtree.c(1564):       20 candidate words for entering last phone (0/fr)
+INFO: ngram_search_fwdtree.c(1567): fwdtree 0.08 CPU 0.012 xRT
+INFO: ngram_search_fwdtree.c(1570): fwdtree 0.08 wall 0.012 xRT
+INFO: ngram_search_fwdflat.c(302): Utterance vocabulary contains 4 words
+INFO: ngram_search_fwdflat.c(948):      728 words recognized (1/fr)
+INFO: ngram_search_fwdflat.c(950):     4185 senones evaluated (6/fr)
+INFO: ngram_search_fwdflat.c(952):     2191 channels searched (3/fr)
+INFO: ngram_search_fwdflat.c(954):     2061 words searched (2/fr)
+INFO: ngram_search_fwdflat.c(957):      226 word transitions (0/fr)
+INFO: ngram_search_fwdflat.c(960): fwdflat 0.00 CPU 0.001 xRT
+INFO: ngram_search_fwdflat.c(963): fwdflat 0.00 wall 0.001 xRT
+INFO: ngram_search.c(1253): lattice start node <s>.0 end node </s>.716
+INFO: ngram_search.c(1279): Eliminated 1 nodes before end node
+INFO: ngram_search.c(1384): Lattice has 34 nodes, 34 links
+INFO: ps_lattice.c(1380): Bestpath score: -5506
+INFO: ps_lattice.c(1384): Normalizer P(O) = alpha(</s>:716:718) = -334480
+INFO: ps_lattice.c(1441): Joint P(O,S) = -343165 P(S|O) = -8685
+INFO: ngram_search.c(875): bestpath 0.00 CPU 0.000 xRT
+INFO: ngram_search.c(878): bestpath 0.00 wall 0.000 xRT
+INFO: batch.c(760): Mustafa_Ismail_48kbps/005: 7.19 seconds speech, 0.09 seconds CPU, 0.09 seconds wall
+INFO: batch.c(762): Mustafa_Ismail_48kbps/005: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+'īyāka wa 'īyāka nasta`īnu (Mustafa_Ismail_48kbps/005 -5723)
+Mustafa_Ismail_48kbps/005 done --------------------------------------
+INFO: batch.c(728): Decoding 'Mustafa_Ismail_48kbps/006'
+INFO: cmn.c(183): CMN: 57.11  4.46 17.32 -3.89  9.04 -7.21 -14.54 -12.26 -1.54  1.22  3.56 -5.37 -11.64 
+INFO: ngram_search_fwdtree.c(1553):      372 words recognized (1/fr)
+INFO: ngram_search_fwdtree.c(1555):     3868 senones evaluated (7/fr)
+INFO: ngram_search_fwdtree.c(1559):     1449 channels searched (2/fr), 276 1st, 885 last
+INFO: ngram_search_fwdtree.c(1562):      885 words for which last channels evaluated (1/fr)
+INFO: ngram_search_fwdtree.c(1564):       22 candidate words for entering last phone (0/fr)
+INFO: ngram_search_fwdtree.c(1567): fwdtree 0.06 CPU 0.011 xRT
+INFO: ngram_search_fwdtree.c(1570): fwdtree 0.06 wall 0.011 xRT
+INFO: ngram_search_fwdflat.c(302): Utterance vocabulary contains 5 words
+INFO: ngram_search_fwdflat.c(948):      124 words recognized (0/fr)
+INFO: ngram_search_fwdflat.c(950):     2618 senones evaluated (5/fr)
+INFO: ngram_search_fwdflat.c(952):      959 channels searched (1/fr)
+INFO: ngram_search_fwdflat.c(954):      840 words searched (1/fr)
+INFO: ngram_search_fwdflat.c(957):      226 word transitions (0/fr)
+INFO: ngram_search_fwdflat.c(960): fwdflat 0.00 CPU 0.000 xRT
+INFO: ngram_search_fwdflat.c(963): fwdflat 0.00 wall 0.000 xRT
+INFO: ngram_search.c(1253): lattice start node <s>.0 end node </s>.519
+INFO: ngram_search.c(1279): Eliminated 1 nodes before end node
+INFO: ngram_search.c(1384): Lattice has 15 nodes, 12 links
+INFO: ps_lattice.c(1380): Bestpath score: -1438
+INFO: ps_lattice.c(1384): Normalizer P(O) = alpha(</s>:519:521) = -103026
+INFO: ps_lattice.c(1441): Joint P(O,S) = -104822 P(S|O) = -1796
+INFO: ngram_search.c(875): bestpath 0.00 CPU 0.000 xRT
+INFO: ngram_search.c(878): bestpath 0.00 wall 0.000 xRT
+INFO: batch.c(760): Mustafa_Ismail_48kbps/006: 5.22 seconds speech, 0.06 seconds CPU, 0.06 seconds wall
+INFO: batch.c(762): Mustafa_Ismail_48kbps/006: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+ahdinā aş-şirāţa al-mustaqīma (Mustafa_Ismail_48kbps/006 -1652)
+Mustafa_Ismail_48kbps/006 done --------------------------------------
+INFO: batch.c(728): Decoding 'Mustafa_Ismail_48kbps/007'
+INFO: cmn.c(183): CMN: 60.27  5.45 15.08 -4.96 13.04 -10.98 -9.42 -7.49 -2.06 -0.58  3.21 -7.19 -5.90 
+INFO: ngram_search_fwdtree.c(1553):     1860 words recognized (1/fr)
+INFO: ngram_search_fwdtree.c(1555):    13680 senones evaluated (8/fr)
+INFO: ngram_search_fwdtree.c(1559):     5333 channels searched (3/fr), 1606 1st, 3172 last
+INFO: ngram_search_fwdtree.c(1562):     3163 words for which last channels evaluated (1/fr)
+INFO: ngram_search_fwdtree.c(1564):       33 candidate words for entering last phone (0/fr)
+INFO: ngram_search_fwdtree.c(1567): fwdtree 0.19 CPU 0.011 xRT
+INFO: ngram_search_fwdtree.c(1570): fwdtree 0.19 wall 0.011 xRT
+INFO: ngram_search_fwdflat.c(302): Utterance vocabulary contains 9 words
+INFO: ngram_search_fwdflat.c(948):      937 words recognized (1/fr)
+INFO: ngram_search_fwdflat.c(950):     8867 senones evaluated (5/fr)
+INFO: ngram_search_fwdflat.c(952):     3939 channels searched (2/fr)
+INFO: ngram_search_fwdflat.c(954):     3487 words searched (2/fr)
+INFO: ngram_search_fwdflat.c(957):      626 word transitions (0/fr)
+INFO: ngram_search_fwdflat.c(960): fwdflat 0.01 CPU 0.000 xRT
+INFO: ngram_search_fwdflat.c(963): fwdflat 0.01 wall 0.000 xRT
+INFO: ngram_search.c(1253): lattice start node <s>.0 end node </s>.1685
+INFO: ngram_search.c(1279): Eliminated 1 nodes before end node
+INFO: ngram_search.c(1384): Lattice has 39 nodes, 31 links
+INFO: ps_lattice.c(1380): Bestpath score: -5699
+INFO: ps_lattice.c(1384): Normalizer P(O) = alpha(</s>:1685:1687) = -372233
+INFO: ps_lattice.c(1441): Joint P(O,S) = -379036 P(S|O) = -6803
+INFO: ngram_search.c(875): bestpath 0.00 CPU 0.000 xRT
+INFO: ngram_search.c(878): bestpath 0.00 wall 0.000 xRT
+INFO: batch.c(760): Mustafa_Ismail_48kbps/007: 16.88 seconds speech, 0.20 seconds CPU, 0.20 seconds wall
+INFO: batch.c(762): Mustafa_Ismail_48kbps/007: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+şirāţa 'an`amta `alayhim ghayri al-maghđūbi `alayhim wa lā ađ-đāllīna (Mustafa_Ismail_48kbps/007 -5855)
+Mustafa_Ismail_48kbps/007 done --------------------------------------
+INFO: batch.c(777): TOTAL 43.41 seconds speech, 0.52 seconds CPU, 0.52 seconds wall
+INFO: batch.c(779): AVERAGE 0.01 xRT (CPU), 0.01 xRT (elapsed)
+INFO: ngram_search_fwdtree.c(432): TOTAL fwdtree 0.50 CPU 0.011 xRT
+INFO: ngram_search_fwdtree.c(435): TOTAL fwdtree 0.50 wall 0.011 xRT
+INFO: ngram_search_fwdflat.c(176): TOTAL fwdflat 0.02 CPU 0.000 xRT
+INFO: ngram_search_fwdflat.c(179): TOTAL fwdflat 0.02 wall 0.000 xRT
+INFO: ngram_search.c(303): TOTAL bestpath 0.00 CPU 0.000 xRT
+INFO: ngram_search.c(306): TOTAL bestpath 0.00 wall 0.000 xRT
+Sun Jan 24 16:58:31 2016

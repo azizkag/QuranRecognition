@@ -1,0 +1,92 @@
+Use of the encoding pragma is deprecated at /usr/local/lib/sphinxtrain/scripts/decode/word_align.pl line 14.
+bismi allähi ar  raä¥mäni ar  raä¥ä«mi  (mahmoud_ali_al_banna_32kbps-001)
+bismi allähi ar  raä¥mäni ar  raä¥ä«mi  (mahmoud_ali_al_banna_32kbps-001)
+Words: 6 Correct: 6 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+al  ä¥amdu lilläh rabbi al  `älamä«na  (mahmoud_ali_al_banna_32kbps-002)
+al  ä¥amdu lilläh rabbi al  `älamä«na  (mahmoud_ali_al_banna_32kbps-002)
+Words: 6 Correct: 6 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+ar  raä¥mäni ar  raä¥ä«mi  (mahmoud_ali_al_banna_32kbps-003)
+ar  raä¥mäni ar  raä¥ä«mi  (mahmoud_ali_al_banna_32kbps-003)
+Words: 4 Correct: 4 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+mäliki yawmi AD  DÄ«NI  (mahmoud_ali_al_banna_32kbps-004)
+mäliki yawmi *** ***    (mahmoud_ali_al_banna_32kbps-004)
+Words: 4 Correct: 2 Errors: 2 Percent correct = 50.00% Error = 50.00% Accuracy = 50.00%
+Insertions: 0 Deletions: 2 Substitutions: 0
+'ä«yäka NA`BUDU wa  'ä«yäka nasta`ä«nu  (mahmoud_ali_al_banna_32kbps-005)
+'ä«yäka ***     wa  'ä«yäka nasta`ä«nu  (mahmoud_ali_al_banna_32kbps-005)
+Words: 5 Correct: 4 Errors: 1 Percent correct = 80.00% Error = 20.00% Accuracy = 80.00%
+Insertions: 0 Deletions: 1 Substitutions: 0
+ahdinä aå åiräå£a al  mustaqä«ma  (mahmoud_ali_al_banna_32kbps-006)
+ahdinä aå åiräå£a al  mustaqä«ma  (mahmoud_ali_al_banna_32kbps-006)
+Words: 5 Correct: 5 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+åiräå£a AL  LADHÄ«NA 'an`amta `alayhim ghayri al  maghäå«bi `alayhim wa  lä aä äällä«na  (mahmoud_ali_al_banna_32kbps-007)
+åiräå£a *** ***      'an`amta `alayhim ghayri al  maghäå«bi `alayhim wa  lä aä äällä«na  (mahmoud_ali_al_banna_32kbps-007)
+Words: 13 Correct: 11 Errors: 2 Percent correct = 84.62% Error = 15.38% Accuracy = 84.62%
+Insertions: 0 Deletions: 2 Substitutions: 0
+mäliki yawmi AD  DÄ«NI  (Parhizgar_48kbps-004)
+mäliki yawmi *** ***    (Parhizgar_48kbps-004)
+Words: 4 Correct: 2 Errors: 2 Percent correct = 50.00% Error = 50.00% Accuracy = 50.00%
+Insertions: 0 Deletions: 2 Substitutions: 0
+'ä«yäka NA`BUDU wa  'ä«yäka nasta`ä«nu  (Parhizgar_48kbps-005)
+'ä«yäka ***     wa  'ä«yäka nasta`ä«nu  (Parhizgar_48kbps-005)
+Words: 5 Correct: 4 Errors: 1 Percent correct = 80.00% Error = 20.00% Accuracy = 80.00%
+Insertions: 0 Deletions: 1 Substitutions: 0
+ahdinä aå åiräå£a al  mustaqä«ma  (Parhizgar_48kbps-006)
+ahdinä aå åiräå£a al  mustaqä«ma  (Parhizgar_48kbps-006)
+Words: 5 Correct: 5 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+åiräå£a AL  LADHÄ«NA 'an`amta `alayhim ghayri al  maghäå«bi `alayhim wa  lä aä äällä«na  (Parhizgar_48kbps-007)
+åiräå£a *** ***      'an`amta `alayhim ghayri al  maghäå«bi `alayhim wa  lä aä äällä«na  (Parhizgar_48kbps-007)
+Words: 13 Correct: 11 Errors: 2 Percent correct = 84.62% Error = 15.38% Accuracy = 84.62%
+Insertions: 0 Deletions: 2 Substitutions: 0
+bismi allähi ar  raä¥mäni ar  raä¥ä«mi  (Sahl_Yassin_128kbps-001)
+bismi allähi ar  raä¥mäni ar  raä¥ä«mi  (Sahl_Yassin_128kbps-001)
+Words: 6 Correct: 6 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+al  ä¥amdu lilläh rabbi al  `älamä«na  (Sahl_Yassin_128kbps-002)
+al  ä¥amdu lilläh rabbi al  `älamä«na  (Sahl_Yassin_128kbps-002)
+Words: 6 Correct: 6 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+ar  raä¥mäni ar  raä¥ä«mi  (Sahl_Yassin_128kbps-003)
+ar  raä¥mäni ar  raä¥ä«mi  (Sahl_Yassin_128kbps-003)
+Words: 4 Correct: 4 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+mäliki yawmi AD  DÄ«NI  (Sahl_Yassin_128kbps-004)
+mäliki yawmi *** ***    (Sahl_Yassin_128kbps-004)
+Words: 4 Correct: 2 Errors: 2 Percent correct = 50.00% Error = 50.00% Accuracy = 50.00%
+Insertions: 0 Deletions: 2 Substitutions: 0
+bismi allähi ar  raä¥mäni ar  raä¥ä«mi  (Mustafa_Ismail_48kbps-001)
+bismi allähi ar  raä¥mäni ar  raä¥ä«mi  (Mustafa_Ismail_48kbps-001)
+Words: 6 Correct: 6 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+al  ä¥amdu lilläh rabbi al  `älamä«na  (Mustafa_Ismail_48kbps-002)
+al  ä¥amdu lilläh rabbi al  `älamä«na  (Mustafa_Ismail_48kbps-002)
+Words: 6 Correct: 6 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+ar  raä¥mäni ar  raä¥ä«mi  (Mustafa_Ismail_48kbps-003)
+ar  raä¥mäni ar  raä¥ä«mi  (Mustafa_Ismail_48kbps-003)
+Words: 4 Correct: 4 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+mäliki yawmi AD  DÄ«NI  (Mustafa_Ismail_48kbps-004)
+mäliki yawmi *** ***    (Mustafa_Ismail_48kbps-004)
+Words: 4 Correct: 2 Errors: 2 Percent correct = 50.00% Error = 50.00% Accuracy = 50.00%
+Insertions: 0 Deletions: 2 Substitutions: 0
+'ä«yäka NA`BUDU wa  'ä«yäka nasta`ä«nu  (Mustafa_Ismail_48kbps-005)
+'ä«yäka ***     wa  'ä«yäka nasta`ä«nu  (Mustafa_Ismail_48kbps-005)
+Words: 5 Correct: 4 Errors: 1 Percent correct = 80.00% Error = 20.00% Accuracy = 80.00%
+Insertions: 0 Deletions: 1 Substitutions: 0
+ahdinä aå åiräå£a al  mustaqä«ma  (Mustafa_Ismail_48kbps-006)
+ahdinä aå åiräå£a al  mustaqä«ma  (Mustafa_Ismail_48kbps-006)
+Words: 5 Correct: 5 Errors: 0 Percent correct = 100.00% Error = 0.00% Accuracy = 100.00%
+Insertions: 0 Deletions: 0 Substitutions: 0
+åiräå£a AL  LADHÄ«NA 'an`amta `alayhim ghayri al  maghäå«bi `alayhim wa  lä aä äällä«na  (Mustafa_Ismail_48kbps-007)
+åiräå£a *** ***      'an`amta `alayhim ghayri al  maghäå«bi `alayhim wa  lä aä äällä«na  (Mustafa_Ismail_48kbps-007)
+Words: 13 Correct: 11 Errors: 2 Percent correct = 84.62% Error = 15.38% Accuracy = 84.62%
+Insertions: 0 Deletions: 2 Substitutions: 0
+TOTAL Words: 133 Correct: 116 Errors: 17
+TOTAL Percent correct = 87.22% Error = 12.78% Accuracy = 87.22%
+TOTAL Insertions: 0 Deletions: 17 Substitutions: 0

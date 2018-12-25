@@ -1,0 +1,117 @@
+Language model created by QuickLM on Sat Jan 23 03:00:12 EST 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 7 sentences and 28 words
+
+\data\
+ngram 1=28
+ngram 2=36
+ngram 3=30
+
+\1-grams:
+-1.9542 'an`amta -0.2913
+-1.6532 'īyāka -0.2913
+-1.1091 </s> -0.3010
+-1.1091 <s> -0.2553
+-1.9542 ad-dīni -0.2659
+-1.9542 ahdinā -0.2962
+-1.9542 al-ladhīna -0.2962
+-1.9542 al-maghđūbi -0.2913
+-1.9542 al-mustaqīma -0.2659
+-1.9542 al-`ālamīna -0.2659
+-1.9542 al-ĥamdu -0.2962
+-1.9542 allāhi -0.2913
+-1.6532 ar-raĥmāni -0.2913
+-1.6532 ar-raĥīmi -0.2659
+-1.9542 ađ-đāllīna -0.2659
+-1.9542 aş-şirāţa -0.2962
+-1.9542 bismi -0.2962
+-1.9542 ghayri -0.2962
+-1.9542 lillāh -0.2962
+-1.9542 lā -0.2962
+-1.9542 māliki -0.2962
+-1.9542 nasta`īnu -0.2659
+-1.9542 na`budu -0.2913
+-1.9542 rabbi -0.2962
+-1.6532 wa -0.2863
+-1.9542 yawmi -0.2962
+-1.6532 `alayhim -0.2863
+-1.9542 şirāţa -0.2962
+
+\2-grams:
+-0.3010 'an`amta `alayhim -0.1761
+-0.6021 'īyāka nasta`īnu 0.0000
+-0.6021 'īyāka na`budu 0.0000
+-1.1461 <s> 'īyāka -0.1761
+-1.1461 <s> ahdinā 0.0000
+-1.1461 <s> al-ĥamdu 0.0000
+-1.1461 <s> ar-raĥmāni 0.0000
+-1.1461 <s> bismi 0.0000
+-1.1461 <s> māliki 0.0000
+-1.1461 <s> şirāţa 0.0000
+-0.3010 ad-dīni </s> -0.3010
+-0.3010 ahdinā aş-şirāţa 0.0000
+-0.3010 al-ladhīna 'an`amta 0.0000
+-0.3010 al-maghđūbi `alayhim -0.1761
+-0.3010 al-mustaqīma </s> -0.3010
+-0.3010 al-`ālamīna </s> -0.3010
+-0.3010 al-ĥamdu lillāh 0.0000
+-0.3010 allāhi ar-raĥmāni 0.0000
+-0.3010 ar-raĥmāni ar-raĥīmi 0.0000
+-0.3010 ar-raĥīmi </s> -0.3010
+-0.3010 ađ-đāllīna </s> -0.3010
+-0.3010 aş-şirāţa al-mustaqīma 0.0000
+-0.3010 bismi allāhi 0.0000
+-0.3010 ghayri al-maghđūbi 0.0000
+-0.3010 lillāh rabbi 0.0000
+-0.3010 lā ađ-đāllīna 0.0000
+-0.3010 māliki yawmi 0.0000
+-0.3010 nasta`īnu </s> -0.3010
+-0.3010 na`budu wa -0.1761
+-0.3010 rabbi al-`ālamīna 0.0000
+-0.6021 wa 'īyāka -0.1761
+-0.6021 wa lā 0.0000
+-0.3010 yawmi ad-dīni 0.0000
+-0.6021 `alayhim ghayri 0.0000
+-0.6021 `alayhim wa -0.1761
+-0.3010 şirāţa al-ladhīna 0.0000
+
+\3-grams:
+-0.3010 'an`amta `alayhim ghayri
+-0.3010 'īyāka nasta`īnu </s>
+-0.3010 'īyāka na`budu wa
+-0.3010 <s> 'īyāka na`budu
+-0.3010 <s> ahdinā aş-şirāţa
+-0.3010 <s> al-ĥamdu lillāh
+-0.3010 <s> ar-raĥmāni ar-raĥīmi
+-0.3010 <s> bismi allāhi
+-0.3010 <s> māliki yawmi
+-0.3010 <s> şirāţa al-ladhīna
+-0.3010 ahdinā aş-şirāţa al-mustaqīma
+-0.3010 al-ladhīna 'an`amta `alayhim
+-0.3010 al-maghđūbi `alayhim wa
+-0.3010 al-ĥamdu lillāh rabbi
+-0.3010 allāhi ar-raĥmāni ar-raĥīmi
+-0.3010 ar-raĥmāni ar-raĥīmi </s>
+-0.3010 aş-şirāţa al-mustaqīma </s>
+-0.3010 bismi allāhi ar-raĥmāni
+-0.3010 ghayri al-maghđūbi `alayhim
+-0.3010 lillāh rabbi al-`ālamīna
+-0.3010 lā ađ-đāllīna </s>
+-0.3010 māliki yawmi ad-dīni
+-0.3010 na`budu wa 'īyāka
+-0.3010 rabbi al-`ālamīna </s>
+-0.3010 wa 'īyāka nasta`īnu
+-0.3010 wa lā ađ-đāllīna
+-0.3010 yawmi ad-dīni </s>
+-0.3010 `alayhim ghayri al-maghđūbi
+-0.3010 `alayhim wa lā
+-0.3010 şirāţa al-ladhīna 'an`amta
+
+\end\
